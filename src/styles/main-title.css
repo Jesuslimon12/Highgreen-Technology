@@ -1,0 +1,30 @@
+.main_title_container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.main_title_container .bg_title{
+    position: absolute;
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8ACF3F;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+
+
+}
+
+.main_title_container .title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #175156;
+}

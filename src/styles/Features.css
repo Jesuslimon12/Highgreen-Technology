@@ -1,0 +1,31 @@
+.main_features{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 60px;
+   
+}
+
+.service_container{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    justify-items: center;
+    gap: 25px;
+   
+    
+   
+}
+
+.fetures_items_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.fetures_items_container > div:nth-child(2n){
+    direction: rtl;
+}

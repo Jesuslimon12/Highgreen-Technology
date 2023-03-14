@@ -1,0 +1,74 @@
+.main_card_review{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+    height: 340px;
+    width: 350px;
+    box-shadow: 0px 2px 5px rgba(54, 61, 77, 0.03);
+    border-radius: 10px;
+    padding: 40px;
+    background: #FFFFFF;
+}
+
+.main_card_review .comment{
+    text-align: left;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+    color: #7D8FB3;
+}
+
+.main_card_review .rating_contianer{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.main_card_review .rating_contianer .stars_icons_container{
+    display: inline-flex;
+    gap: 6px;   
+}
+
+.main_card_review .rating_contianer .rating_number{
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 25px;
+    color: #6B7A99;
+
+}
+
+.main_card_review .user_profile_container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.main_card_review .user_profile_container .user_img_container{
+    background: rgba(230, 46, 46, 0.2);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+
+.main_card_review .user_profile_container .user_img_container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-attachment: red;
+    border-radius: 50%;
+}
+.main_card_review .user_profile_container .user_info_container{
+    display: inline-flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    color: #175156;
+    text-align: center;
+
+}
+.user_info_container span{
+    color: #7D8FB3;
+}
