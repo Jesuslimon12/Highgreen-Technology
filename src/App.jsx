@@ -3,6 +3,7 @@ import About from './components/About'
 import Features from './components/Features'
 import Products from './components/Products'
 import Reviews from './components/Reviews'
+import Contact_us from './components/Contact-Us'
 
 function App(){
   return <main className='main'>
@@ -12,7 +13,8 @@ function App(){
       <About />
       <Features />
       <Products />
-      <Reviews />
+      {/**<Reviews />**/}
+      <Contact_us />
     </div>
 
   </main>

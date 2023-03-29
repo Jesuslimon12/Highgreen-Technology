@@ -57,7 +57,7 @@ export default function Feature_Item(props) {
        
       </div>
 
-      <p className='feature_item_description'>{check_paragraph_highlighted(description)}</p>
+      <p className='feature_item_description' dangerouslySetInnerHTML={{__html: description}}></p>
 
     </div>
   )

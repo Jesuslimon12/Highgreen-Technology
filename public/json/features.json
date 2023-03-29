@@ -26,7 +26,7 @@
             "img":"../src/assets/ImgF3.svg",
             "badge_title":"Belt-less tech",
             "title":"No Belt, No Problem",
-            "description":"Highgreen Technology is committed to providing innovative solutions that meet the needs of any customer. Our selection of Haaga sweepers utilize a belt-less technology that reduces maintenance frequency and cost to the users. With less mechanic issues, we get reducing maintenance costs and improved worker efficiency.",
+            "description":"<span class='highlighted_text'> Highgreen Technology </span> is committed to providing innovative solutions that meet the needs of any customer. Our selection of Haaga sweepers utilize a belt-less technology that reduces maintenance frequency and cost to the users. With less mechanic issues, we get reducing maintenance costs and improved worker efficiency.",
             "advantage":["Innovative Design","Reduced Maintenance Issues","Reduced Maintenance Costs"]
 
         },
@@ -36,7 +36,7 @@
             "img":"../src/assets/ImgF4.svg",
             "badge_title":"ECO-FRIENDLY",
             "title":"Eco-Friendly Technology and Materials",
-            "description":"'Highgreen Technology' is committed to providing innovative solutions that meet the needs of any customer. Haaga sweepers use eco-friendly technology and materials by being not requiring electricity to function, utilizing Turbo sweeping technology, being built with durable and recyclable materials, having a large collection container, and ultimately reducing energy consumption, waste, and reliance on non-renewable resources.",
+            "description":"<span class='highlighted_text'> Highgreen Technology </span> is committed to providing innovative solutions that meet the needs of any customer. Haaga sweepers use eco-friendly technology and materials by being not requiring electricity to function, utilizing Turbo sweeping technology, being built with durable and recyclable materials, having a large collection container, and ultimately reducing energy consumption, waste, and reliance on non-renewable resources.",
             "advantage":["Manually Operated","Eco-Friendly Materials","Reduced Energy Consumption"]
 
         }
@@ -62,7 +62,7 @@
         {
             "id":"4",
             "title":"Eco-Friendly",
-            "icon":"../src/assets/icon-turbosystem.svg"
+            "icon":"../src/assets/icon-ecofriendly.svg"
         }
     ]
 }
