@@ -46,19 +46,24 @@ a{
   margin: 0 auto;
   /*grid-template-columns: 1fr;*/
   /*grid-template-rows:repeat(auto-fill,1fr);*/
-  gap: 6rem;
+  /*gap: 6rem;*/
   overflow: hidden;
   background: #F8FAFC;
 }
 
-.main .main_sections{
+.main .main_section{
   max-width: 110rem;
   margin: 0 auto;
   
 }
 
-.main .main_sections > div{
+.main .main_section > div{
   margin-top: 15rem;
 }
 
+
+.main .footer_section{
+  margin-top: 37rem;
+ 
+}
 

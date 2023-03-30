@@ -4,7 +4,7 @@ import '../styles/header.css'
 
 export default function Header() {
   return (
-    <section className='main_header'>
+    <header className='main_header'>
       <nav className='main_nav'>
         <div className='logo_container'>
           <img src={Highgreen} alt="" className='logo'/>
@@ -28,7 +28,6 @@ export default function Header() {
       <a href='#' className='btn header_button'>
         Show More
       </a>
-
-    </section>
+    </header>
   )
 }
