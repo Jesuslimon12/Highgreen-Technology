@@ -1,21 +1,18 @@
 .main_features{
-    max-width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: column; 
     align-items: center;
-    gap: 60px;
+    gap: 15rem;
    
 }
 
 .service_container{
+    width: 100%;
     display: grid;
-    width: 80%;
-    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-    justify-items: center;
-    gap: 25px;
-   
-    
-   
+    grid-template-columns: repeat(auto-fit, minmax(calc(25.5rem - 2.7rem), 1fr));
+    justify-items:center;
+    gap: 2.7rem;
 }
 
 .fetures_items_container{
@@ -23,9 +20,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    gap: 20rem;
+
 }
 
-.fetures_items_container > div:nth-child(2n){
+.fetures_items_container > div:nth-child(2n) .feature_item_container{
     direction: rtl;
 }

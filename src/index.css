@@ -1,6 +1,19 @@
-*{
-  margin: 0;
-  box-sizing: border-box;
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+
+body{
+  box-sizing: inherit;
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   color: #FFFFFF;
@@ -12,17 +25,19 @@ ul{
 }
 a{
   text-decoration: none;
+  color: inherit;
 }
 
-html{
-  scroll-behavior: smooth;
+.highlighted_text{
+  color: #175156;
 }
+
 
 .container{
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
-  padding: 60px 0;
+  padding: 6rem 0;
 }
 
 .main{
@@ -31,18 +46,24 @@ html{
   margin: 0 auto;
   /*grid-template-columns: 1fr;*/
   /*grid-template-rows:repeat(auto-fill,1fr);*/
-  gap: 60px;
+  /*gap: 6rem;*/
   overflow: hidden;
   background: #F8FAFC;
 }
 
-.main .main_sections{
-  max-width: 1440px;
+.main .main_section{
+  max-width: 110rem;
   margin: 0 auto;
+  
 }
 
-.main .main_sections > div{
-  margin-top: 60px;
+.main .main_section > div{
+  margin-top: 15rem;
 }
 
+
+.main .footer_section{
+  margin-top: 37rem;
+ 
+}
 

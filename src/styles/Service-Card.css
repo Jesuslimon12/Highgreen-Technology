@@ -1,27 +1,27 @@
 .main_service_card{
     background: #FFFFFF;
-    box-shadow: 0px 2px 5px rgba(54, 61, 77, 0.05);
-    border-radius: 5px;
-    height: 255px;
-    width: 255px;
-    display: inline-flex;
+    box-shadow: 0 .2rem .5rem rgba(54, 61, 77, 0.05);
+    border-radius: .5rem;
+    height: 25.5rem;
+    width: 25.5rem;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 62px;
-
-    
+    gap: 6.2rem;
 }
 
 .main_service_card img{
-    height: 37px;
-    width: 40px;
+    height: 6rem;
+    width: 6rem;
 }
 
 .main_service_card span{
     font-weight: 600;
-    font-size: 18px;
-    line-height: 18px;
-    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
     color: #175156;
+    width: 90%;
+    height: 4rem;
+    text-align: center;
 }

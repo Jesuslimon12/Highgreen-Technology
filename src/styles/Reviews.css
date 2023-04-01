@@ -1,17 +1,17 @@
 .main_reviews{
-    max-width: 1440px;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column; 
-    gap: 60px;
-    
+    gap: 15rem;
+ 
 }
 
 .main_reviews .cards_container{
-    width: 80%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(calc(35rem - 3.5rem), 1fr));
     justify-items: center;
-    gap: 25px;
+    gap: 3.5rem;
 
 }

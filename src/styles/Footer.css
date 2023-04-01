@@ -1,0 +1,11 @@
+.main_footer{
+    width:100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 4rem;  
+    background-color: #175156;
+    padding: 10rem 0;
+    position: relative;
+}
