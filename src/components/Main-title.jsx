@@ -4,10 +4,16 @@ import '../styles/main-title.css'
 export default function Main_title(props) {
   const bgtitle = props.bgtitle
   const title = props.title
+
+  /**
+   * title-box
+   *  title--bg
+   *  title--main
+   * **/
   return (
-    <div className='main_title_container'>
-        <h1 className='bg_title'> {bgtitle} </h1>
-        <h1 className='title'> {title} </h1>
+    <div className='title-box'>
+        <h1 className='title--bg'> {bgtitle} </h1>
+        <h1 className='title--main'> {title} </h1>
     </div>
   )
 }

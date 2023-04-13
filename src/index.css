@@ -43,27 +43,25 @@ a{
 .main{
   /*display: grid;*/
   /*max-width: 1440px;*/
-  margin: 0 auto;
   /*grid-template-columns: 1fr;*/
   /*grid-template-rows:repeat(auto-fill,1fr);*/
   /*gap: 6rem;*/
+  margin: 0 auto;
   overflow: hidden;
   background: #F8FAFC;
 }
 
-.main .main_section{
+.main__sections{
   max-width: 110rem;
   margin: 0 auto;
-  
 }
 
-.main .main_section > div{
+.main__sections > div{
   margin-top: 15rem;
 }
 
 
-.main .footer_section{
-  margin-top: 37rem;
- 
+.main__footer__section{
+  margin-top: 37rem; 
 }
 

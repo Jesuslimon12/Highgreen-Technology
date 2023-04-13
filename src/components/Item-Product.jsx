@@ -48,14 +48,14 @@ export default function Item_Product(props) {
     if(Arrayimg.length > 1){
       let items = Arrayimg?.map((img, id) => 
       
-        <img key={id} src={img} alt="" />
+        <img className='carousel__img' key={id} src={img} alt="" />
   
       )
 
       return [
-        <img  key={Arrayimg.length + 1} src={Arrayimg[Arrayimg.length-1 ]} alt="" />,
+        <img  className='carousel__img'  key={Arrayimg.length + 1} src={Arrayimg[Arrayimg.length-1 ]} alt="" />,
         ...items,
-       <img  key={Arrayimg.length + 2} src={Arrayimg[0]} alt="" />,
+       <img  className='carousel__img' key={Arrayimg.length + 2} src={Arrayimg[0]} alt="" />,
       ]
     }
 
@@ -91,40 +91,63 @@ export default function Item_Product(props) {
     }
   }
 
+  /**
+   * product
+   *  product__carousel-box
+   *    carousel__control
+   *    carousel__imgs-box
+   * 
+   * 
+   *  product__details-box
+   *    product__detail
+   *      product__name
+   *      product__description
+   *    
+   *    product__characteristics-box
+   *       product__characteristic
+   * 
+   *       btn--detailview
+   *      
+   *    
+   * **/
   
    return (
-    <div className='main_item_product'>
-        <div className='img_product_container'>   
-            <span onClick={previousImg}></span>
+    <div className='product'>
+        <div className='product__carousel-box'>   
+            <span className='carousel__control carousel__control--left' onClick={previousImg}></span>
             
-            <div ref={containerRef} style={css}>
+            <div className='carousel__imgs-box' ref={containerRef} style={css}>
             {
               ShowCarousel
             }
             </div>
            
-            <span onClick={nextImg}></span>
+            <span className='carousel__control carousel__control--right' onClick={nextImg}></span>
         </div>
 
-        <div className='main_about_product'>
-            <div className='description_product_container'>
-              <h1> {product_name} </h1>
-              <p> {description_product} </p>
+        <div className='product__details-box'>
+            <div className='product__detail'>
+              <h1 className='product__name'> {product_name} </h1>
+              <p className='product__description'> {description_product} </p>
 
-              <div className='characteristics_product_container'>
+              <div className='product__characteristics-box'>
                 {
                   characteristics?.map((item, id) => 
-                    <span key={id}>{item.characteristic} <span> {item.description} </span> </span>
+                    <span className='product__characteristic' key={id}>{item.characteristic} <span className='text--black'> {item.description} </span> </span>
                   )
                 }
               
               </div>
             </div>
 
-            <span className='btn_view_product'>
-              View Product
-              <img src={IconRightGreen} alt="" />
-            </span>
+            
+            <a href='#' className='btn btn--view'>
+              <span className='btn--view-title'>View Product</span> 
+              <img className='btn--view-icon' src={IconRightGreen} alt="" />
+            </a> 
+            
+                
+            
         </div>
 
 

@@ -26,7 +26,6 @@
     text-transform: uppercase;
 }
 
-
 .main_contact_us .form_contact_us{
     width: 100%;
     max-width: 110rem;
@@ -46,6 +45,7 @@
     justify-content: flex-end;
     gap: 4.8rem;
 }
+
 .form_label{
     font-weight: 700;
     font-size: 2.4rem;
@@ -92,7 +92,6 @@
 
 .btn_cancel{
     background: #8ACF3F;
-    
 }
 
 .btn_sumbit{

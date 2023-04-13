@@ -2,6 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react'
 import Main_title from './Main-title'
 import Service_Card from './Service-Card'
 import Feature_Item from './Feature-Item'
+import '../styles/Features.css'
 
 export default function () {
   const [features, setFeatures] = useState([])
@@ -43,18 +44,23 @@ export default function () {
 
   },[features])
  
+  /**
+   * features
+   *  features__services-box
+   *  features__items-box
+   * **/
   return (
-    <div className='main_features'>
+    <div className='features'>
        <Main_title bgtitle={'FEATURES'} title={'High Quality Products'} />
-       <p>Highgreen Technology's purpose is to simplify the cleaning solution search process for customers by providing a hand-selected product line of only the best solutions for their cleaning needs. <br /> Our current catalog is comprised of the newest Haaga line of sweepers. If our word isnt enough to convince you, here are <span className='highlighted_text'> 4 features </span>we love about our product selection: </p>
+       <p className='main-text'>Highgreen Technology's purpose is to simplify the cleaning solution search process for customers by providing a hand-selected product line of only the best solutions for their cleaning needs. <br /> Our current catalog is comprised of the newest Haaga line of sweepers. If our word isnt enough to convince you, here are <span className='main-text--active'> 4 features </span>we love about our product selection: </p>
        
-       <div className='service_container'>
+       <div className='features__services-box'>
           {
             ShowServices
           }
        </div>
 
-       <div className='fetures_items_container'>
+       <div className='features__items-box'>
           {
             ShowFeatures
           }

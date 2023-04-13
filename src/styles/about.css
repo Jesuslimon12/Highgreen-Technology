@@ -1,4 +1,4 @@
-.main_about{
+.about{
     /*max-width: 1440px;*/
     width: 100%;
     display: flex;
@@ -8,26 +8,7 @@
     
 }
 
-p{
-    font-weight: 500;
-    font-style: normal;
-    font-size: 2.4rem;
-    line-height: 5rem;
-    text-align: center;
-    color: #7D8FB3;
-    text-align: justify;
-   
-    max-width: 110rem;
-    
-}
-
-p .active{
-    color: inherit;
-    font-weight: bold;
-}
-
-
-.main_list_social_icons{
+.list-icons{
     display: flex;
     justify-content: center;
     align-items: center;

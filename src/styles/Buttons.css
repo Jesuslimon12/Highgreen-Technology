@@ -1,0 +1,71 @@
+.btn:link,
+  .btn:visited{
+    display: inline-block;
+    border-radius: 3rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .btn--heading{
+    border: .2rem solid #FFFFFF;  
+    position: relative; 
+    overflow: hidden;
+    padding: 1.3rem 3.3rem;
+   
+  }
+
+  .btn--heading::before{
+    content: '';
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #8ACF3F;
+    transition: all 1.5s;
+  }
+
+  .btn--heading:hover::before{
+    width: 100%;
+  }
+
+  .btn--heading:hover{
+    border: 0;
+  }
+
+
+  .btn--showmore{
+    background: #FFFFFF;
+    box-shadow: 0rem 1rem 3rem rgba(77, 77, 77, 0.05);
+    padding: 1.5rem 3.1rem;
+    position: absolute;
+    bottom: 0;
+    transform: translate(0, 3rem);
+    color: #175156 !important;
+  }
+
+  .btn--view{
+    display: flex !important;
+    align-items: center;
+    justify-content:space-between;
+    width: 12rem;
+    border-radius: unset !important;
+  } 
+
+  .btn--view-title{
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #175156;
+   
+  }
+
+  .btn--view-icon{
+    width: 1.558rem;
+    height: 1.518rem;
+  }
+    

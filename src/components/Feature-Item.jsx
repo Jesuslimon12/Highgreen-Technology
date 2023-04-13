@@ -34,30 +34,38 @@ export default function Feature_Item(props) {
    /* return <span className='highlighted_text'>{high}</span>*/
     
   }
-
+  /**
+   * feature
+   *  feature__item-box
+   *   feature__img
+   *   feature__item
+   * 
+   *  feature__advantages-box
+   *    feature__advantage
+   * **/
   return (
-    <div className='main_feature_item'>
+    <div className='feature'>
 
-      <div className='feature_item_container'>
-        <img src={img} alt="" />
-        <div className='feature_item'>
-            <span>{badge_title}</span>
+      <div className='feature__item-box'>
+        <img src={img} alt="" className='feature__img' />
+        <div className='feature__item'>
+            <span className='feature__title'>{badge_title}</span>
             <Main_title bgtitle={feature_num} title={title} />
         </div>
       </div>
 
-      <div className='feature_items_advantages_contianer'>
+      <div className='feature__advantages-box'>
         {
           advantages?.map((advantage, id) => 
           
-            <span key={id} className='feature_item_advantage'>{advantage}</span>
+            <span key={id} className='feature__advantage'>{advantage}</span>
       
           )
         }
        
       </div>
 
-      <p className='feature_item_description' dangerouslySetInnerHTML={{__html: description}}></p>
+      <p className='main-text' dangerouslySetInnerHTML={{__html: description}}></p>
 
     </div>
   )
