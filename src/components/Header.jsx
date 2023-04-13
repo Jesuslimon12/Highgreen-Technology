@@ -20,20 +20,27 @@ export default function Header() {
    *   
    *   btn-show-more   
    *     
+   * nav
+   *  nav__logo-box
+   *    nav_logo
+   * 
+   *  nav__lists-box
+   *    nav__list
+   *      nav__link
    * * */
   return (
     <header className='header'>
-      <nav className='header__nav-box'>
+      <nav className='nav'>
 
-        <div className='header__logo-box'>
-          <img src={Highgreen} alt="" className='header__logo'/>
+        <div className='nav__logo-box'>
+          <img src={Highgreen} alt="" className='nav__logo'/>
         </div>
 
-        <ul className='header__nav'>
-          <li className='header__nav-item'><a href="#about">About Us</a></li>
-          <li className='header__nav-item'><a href="#products">Products</a></li>
-          <li className='header__nav-item'><a href="">Distributor</a></li>
-          <li className='header__nav-item'><a href="">Contact Us</a></li>
+        <ul className='nav__lists-box'>
+          <li className='nav__list'><a className='nav__link' href="#about">About Us</a></li>
+          <li className='nav__list'><a className='nav__link' href="#products">Products</a></li>
+          <li className='nav__list'><a className='nav__link' href="">Distributor</a></li>
+          <li className='nav__list'><a className='nav__link' href="">Contact Us</a></li>
         </ul>
 
       </nav>

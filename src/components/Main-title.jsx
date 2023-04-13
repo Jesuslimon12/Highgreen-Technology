@@ -6,14 +6,14 @@ export default function Main_title(props) {
   const title = props.title
 
   /**
-   * title-box
-   *  title--bg
-   *  title--main
+   * main__title-box
+   *  main__title--bg
+   *  main__title--main
    * **/
   return (
-    <div className='title-box'>
-        <h1 className='title--bg'> {bgtitle} </h1>
-        <h1 className='title--main'> {title} </h1>
+    <div className='main__title-box'>
+        <h1 className='main__title main__title--bg'> {bgtitle} </h1>
+        <h1 className='main__title main__title--primary'> {title} </h1>
     </div>
   )
 }

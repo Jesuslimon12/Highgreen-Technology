@@ -4,7 +4,7 @@ import Product1 from '../assets/ImgProduct1.svg'
 import Product2 from '../assets/ImgF2.svg'
 import Product3 from '../assets/ImgF3.svg'
 import IconRightGreen from '../assets/RightIconGreen.svg'
-import '../styles/Item-Product.css'
+import '../styles/Product-Item.css'
 
 export default function Item_Product(props) {
   const containerRef = useRef()
@@ -113,7 +113,7 @@ export default function Item_Product(props) {
   
    return (
     <div className='product'>
-        <div className='product__carousel-box'>   
+        <div className='carousel'>   
             <span className='carousel__control carousel__control--left' onClick={previousImg}></span>
             
             <div className='carousel__imgs-box' ref={containerRef} style={css}>

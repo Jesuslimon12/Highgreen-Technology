@@ -4,7 +4,7 @@
     gap: 10rem;
 }
 
-.feature__item-box{
+.feature__card-box{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(calc(54rem - 2.1rem), 1fr));
@@ -12,24 +12,25 @@
     gap: 2.1rem;
 }
 
-.feature__img{
+.feature__card-img{
     max-width: 100%;
     object-fit: cover;
     margin: 0 auto;
  
 }
 
-.feature__item{
+.feature__card-text-box{
     display: flex;
     flex-direction: column;
     justify-content: top;
 
 }
 
-.feature__title{
+.feature__card-text-badge{
     width: 13.6rem;
     height: 3rem;
     position: relative;
+
     font-weight: 700;
     font-size: 1.2rem;
     line-height: 2rem;
@@ -38,7 +39,7 @@
     text-align: center;
 }
 
-.feature__title::after{
+.feature__card-text-badge::after{
     content: '';
     width: 100%;
     height: 100%;

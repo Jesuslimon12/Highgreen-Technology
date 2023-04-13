@@ -17,7 +17,7 @@
     }
 
     
-    .product__carousel-box{
+    .carousel{
         border-radius: .5rem .5rem 0 0 !important;
     }
 
@@ -28,7 +28,7 @@
 
 
 
-.product__carousel-box{
+.carousel{
     position: relative;
     display: flex;
     flex-direction: row;

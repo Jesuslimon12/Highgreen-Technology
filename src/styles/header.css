@@ -23,7 +23,7 @@
     z-index: -1;
   }
   
-  .header__nav-box{
+  .nav{
     display: inline-flex;
     justify-content: space-around;
     width: 80%;
@@ -31,25 +31,22 @@
     top: 4.4rem;
   }
 
-  .header__logo-box .header__logo{
-    height: 6rem;
+  .nav__logo{
+    width: 24.6rem;
+    height: 6.8rem;
   }
 
-  
-
-  .header__nav{
+  .nav__lists-box{
     display: flex;
     align-items: center;
     gap: 6rem;
     padding: 0;
   }
   
-  .header__nav-item{
+  .nav__list{
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.6rem;
-  
-  
   }
   
   .header__text-box{

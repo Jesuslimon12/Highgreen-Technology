@@ -36,9 +36,11 @@ export default function Feature_Item(props) {
   }
   /**
    * feature
-   *  feature__item-box
-   *   feature__img
-   *   feature__item
+   *  feature__card-box
+   *   feature__card-img
+   *   feature__card-text-box  
+   *      feature__card-text-badge
+   *  
    * 
    *  feature__advantages-box
    *    feature__advantage
@@ -46,10 +48,10 @@ export default function Feature_Item(props) {
   return (
     <div className='feature'>
 
-      <div className='feature__item-box'>
-        <img src={img} alt="" className='feature__img' />
-        <div className='feature__item'>
-            <span className='feature__title'>{badge_title}</span>
+      <div className='feature__card-box'>
+        <img src={img} alt="" className='feature__card-img' />
+        <div className='feature__card-text-box'>
+            <span className='feature__card-text-badge'>{badge_title}</span>
             <Main_title bgtitle={feature_num} title={title} />
         </div>
       </div>

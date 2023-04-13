@@ -1,4 +1,4 @@
-.title-box{
+.main__title-box{
     width: 100%;
     position: relative;
     display: flex;
@@ -8,7 +8,8 @@
    
 }
 
-.title--bg{
+
+.main__title--bg{
     position: absolute;
     text-align: center;
     font-weight: 800;
@@ -23,7 +24,7 @@
 
 }
 
-.title--main{
+.main__title--primary{
     font-weight: 400;
     font-size: 3.6rem;
     line-height: 3.6rem;

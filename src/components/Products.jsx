@@ -1,6 +1,6 @@
 import React from 'react'
 import Main_title from './Main-title'
-import Item_Product from './Item-Product'
+import Product_Item from './Product-Item'
 import '../styles/Products.css'
 
 
@@ -22,21 +22,21 @@ export default function Products() {
       
       <div className='products__items-box'>
         <h1 className='product__type highlighted_text'>SWEEPERS</h1>
-        <Item_Product name={'HAAGA 477 Sweeper'} description={description} />
-        <Item_Product name={'HAAGA 477 Sweeper'} description={description} />
-        <Item_Product name={'HAAGA 477 Sweeper'} description={description} />
-        <Item_Product name={'HAAGA 477 Sweeper'} description={description} />
+        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
+        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
+        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
+        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
       </div>
 
       <div className='products__items-box'>
         <h1 className='product__type highlighted_text'>DRYERS</h1>
-        <Item_Product name={'HAAGA 477 Sweeper'} description={description} />
+        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
 
       </div>
 
       <div className='products__items-box'>
         <h1 className='product__type highlighted_text'>CLEANERS</h1>
-        <Item_Product name={'HAAGA 477 Sweeper'} description={description} />
+        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
       </div>
      
 
