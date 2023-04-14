@@ -1,5 +1,5 @@
 
-.main_header{
+.header{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,7 @@
     
   }
   
-  .main_header::before{
+  .header::before{
     content: '';
     position: absolute;
     background-image: url(/src/assets/bg.svg);
@@ -23,69 +23,65 @@
     z-index: -1;
   }
   
-  .main_nav{
+  .nav{
     display: inline-flex;
     justify-content: space-around;
     width: 80%;
     position: absolute;
     top: 4.4rem;
-    
   }
 
- 
-
-  .logo_container .logo{
-    height: 6rem;
+  .nav__logo{
+    width: 24.6rem;
+    height: 6.8rem;
   }
 
-  
-
-  .main_nav_list{
+  .nav__lists-box{
     display: flex;
     align-items: center;
     gap: 6rem;
     padding: 0;
   }
   
-  .main_nav_list li a{
+  .nav__list{
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.6rem;
-  
-  
   }
   
-  .text_box{
+  .header__text-box{
     height: 23rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-     backface-visibility: hidden;
+    backface-visibility: hidden;
   }
   
-  .main_heading{
-    display: flex;
+  .heading-primary{
+   /* display: flex;
     flex-direction: column;
     gap: 3rem;
+    */
     margin-bottom: 4rem;
   }
 
-  .heading_primary{
+  .heading-primary--main{
+    display: block;
+    margin-bottom: 3.3rem;
     font-weight: 500;
     font-size: 6.4rem;
     line-height: 4.8rem;
     text-align: center;
-    
-
   }
 
-  .heading_primary > span{
+  .font-w-800{
     font-weight: 800;
   }
 
-  .heading_secondary{
+  .heading-primary--sub{
+    display: block;
     font-weight: 500;
     font-size: 3.2rem;
     line-height: 4rem;
@@ -94,52 +90,4 @@
   }
 
 
-  .btn:link,
-  .btn:visited{
-    display: inline-block;
-    border-radius: 3rem;
-    font-weight: 700;
-    font-size: 1.4rem;
-    line-height: 3rem;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .btn_text_box{
-    border: .2rem solid #FFFFFF;  
-    position: relative; 
-    overflow: hidden;
-    padding: 1.3rem 3.3rem;
-   
-  }
-
-  .btn_text_box::before{
-    content: '';
-    width: 0;
-    height: 100%;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #8ACF3F;
-    transition: all 1.5s;
-  }
-
-  .btn_text_box:hover::before{
-    width: 100%;
-  }
-  .btn_text_box:hover{
-    border: 0;
-  }
-
-
-  .header_button{
-    background: #FFFFFF;
-    box-shadow: 0rem 1rem 3rem rgba(77, 77, 77, 0.05);
-    padding: 1.5rem 3.1rem;
-    position: absolute;
-    bottom: 0;
-    transform: translate(0, 3rem);
-    color: #175156 !important;
-  }
   

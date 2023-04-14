@@ -1,4 +1,4 @@
-.main_service_card{
+.service{
     background: #FFFFFF;
     box-shadow: 0 .2rem .5rem rgba(54, 61, 77, 0.05);
     border-radius: .5rem;
@@ -11,12 +11,12 @@
     gap: 6.2rem;
 }
 
-.main_service_card img{
+.service__img{
     height: 6rem;
     width: 6rem;
 }
 
-.main_service_card span{
+.service__title{
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.8rem;

@@ -1,4 +1,4 @@
-.main_products{
+.products{
     width: 100%;
     display: flex;
     flex-direction: column; 
@@ -7,10 +7,17 @@
 }
 
 
-.main_products .items_product_container{
+.products__items-box{
     display: flex;
     flex-direction: column;
     gap: 5rem;
+}
+
+.product__type{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #175156;
 }
 
 

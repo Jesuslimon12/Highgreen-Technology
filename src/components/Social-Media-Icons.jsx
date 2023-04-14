@@ -11,7 +11,7 @@ import IconLighter from '../assets/Lighter.svg'
 
 export default function Social_Media_Icons() {
   return (
-    <ul className='main_list_social_icons'>
+    <ul className='list-icons'>
     {  /*<li><img src={IconGoogle} alt="" /></li>
       <li><img src={IconFacebook} alt="" /></li>
       <li><img src={IconApple} alt="" /></li>
