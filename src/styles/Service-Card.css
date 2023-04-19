@@ -2,26 +2,23 @@
     background: #FFFFFF;
     box-shadow: 0 .2rem .5rem rgba(54, 61, 77, 0.05);
     border-radius: .5rem;
-    height: 25.5rem;
+    text-align: center;
+    padding: 5.4rem 0;
     width: 25.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 6.2rem;
 }
 
-.service__img{
+.service__icon{
+    display: inline-block;
     height: 6rem;
     width: 6rem;
+    margin-bottom: 6.2rem;
 }
 
 .service__title{
+    display: inline-block;
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.8rem;
     color: #175156;
     width: 90%;
-    height: 4rem;
-    text-align: center;
 }

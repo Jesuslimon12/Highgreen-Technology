@@ -6,12 +6,12 @@ export default function Service_Card(props) {
 
   /**
    * service
-   *  service__img
+   *  service__icon
    *  service__title
    * **/
   return (
     <div className='service'>
-        <img src={icon} alt=""  className='service__img'/>
+        <img src={icon} alt=""  className='service__icon'/>
         <span className='service__title'> {title} </span>
     </div>
   )

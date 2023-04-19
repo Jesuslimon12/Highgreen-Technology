@@ -5,12 +5,13 @@ import '../styles/header.css'
 export default function Header() {
   /**
    * header
-   *  header__nav-box
-   *    header__logo-box
-   *        header__logo
+   *  header__nav
+   *    header__nav-logo-box
+   *        header__nav-logo
    *    
-   *    header__nav
-   *      header__nav-item
+   *    header__nav-lists-box
+   *      header__nav-list
+   *      header__nav-link
    * 
    *   header__text-box
    *    heading-primary
@@ -19,28 +20,21 @@ export default function Header() {
    *    btn-heading
    *   
    *   btn-show-more   
-   *     
-   * nav
-   *  nav__logo-box
-   *    nav_logo
-   * 
-   *  nav__lists-box
-   *    nav__list
-   *      nav__link
+   *
    * * */
   return (
     <header className='header'>
-      <nav className='nav'>
+      <nav className='header__nav'>
 
-        <div className='nav__logo-box'>
-          <img src={Highgreen} alt="" className='nav__logo'/>
+        <div className='header__nav-logo-box'>
+          <img src={Highgreen} alt="" className='header__nav-logo'/>
         </div>
 
-        <ul className='nav__lists-box'>
-          <li className='nav__list'><a className='nav__link' href="#about">About Us</a></li>
-          <li className='nav__list'><a className='nav__link' href="#products">Products</a></li>
-          <li className='nav__list'><a className='nav__link' href="">Distributor</a></li>
-          <li className='nav__list'><a className='nav__link' href="">Contact Us</a></li>
+        <ul className='header__nav-lists-box'>
+          <li className='header__nav-list'><a className='header__nav-link' href="#about">About Us</a></li>
+          <li className='header__nav-list'><a className='header__nav-link' href="#products">Products</a></li>
+          <li className='header__nav-list'><a className='header__nav-link' href="">Distributor</a></li>
+          <li className='header__nav-list'><a className='header__nav-link' href="">Contact Us</a></li>
         </ul>
 
       </nav>
@@ -52,10 +46,10 @@ export default function Header() {
          <span className='heading-primary--sub'>Revolutionary High-Performance Sweepers</span> 
         </h1>
 
-        <a href="#" className='btn btn--heading'>Let’s clean your mess, together.</a>
+        <a href="#" className='btn-hero'>Let’s clean your mess, together.</a>
       </div>
 
-      <a href='#' className='btn btn--showmore'>
+      <a href='#' className='btn-show-more tranlsateY-3'>
         Show More
       </a>
     </header>

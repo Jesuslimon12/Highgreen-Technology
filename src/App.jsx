@@ -16,7 +16,7 @@ function App(){
   /**CLASSES
   main
   main__sections
-  main__footer__section
+  main__footer-section
   
   
   
@@ -32,7 +32,7 @@ function App(){
         {/**<Reviews />**/}
       </section>
 
-      <section className="main__footer__section">
+      <section className="main__footer-section">
         <Contact_us />
         <Footer />
       </section>

@@ -141,9 +141,9 @@ export default function Item_Product(props) {
             </div>
 
             
-            <a href='#' className='btn btn--view'>
-              <span className='btn--view-title'>View Product</span> 
-              <img className='btn--view-icon' src={IconRightGreen} alt="" />
+            <a href='#' className='btn-view'>
+              <span className='btn-view--title'>View Product</span> 
+              <img className='btn-view--icon' src={IconRightGreen} alt="" />
             </a> 
             
                 

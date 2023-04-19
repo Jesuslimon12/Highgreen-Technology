@@ -15,7 +15,7 @@ export default function Products() {
    * **/
   return (
     <div id='products' className='products'>
-      <Main_title bgtitle={'PRODUCTS'} title={'PRODUCT CATALOG'} />
+      <Main_title bgtitle={'PRODUCTS'} title={'PRODUCT CATALOG'} letter_spacing={'secondary'} />
       <p className='main-text'>Our product category provides a hassle-free experience with carefully curated products that just work. Our team of experts, with over a decade of industry experience, ensures that each product offers more benefits than troubles. We've included everything we wished we had known from the beginning, from easy-to-use design to our commitment to quality sustainability and efficient execution.
         Experience the difference with our simple and efficient products that exceed expectations. Choose us for a hassle-free solution!</p>
       

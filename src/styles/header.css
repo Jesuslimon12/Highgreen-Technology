@@ -3,11 +3,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     height: 100vh;
     position: relative;
-    z-index: 0;
-  
-    
+    z-index: 0;  
   }
   
   .header::before{
@@ -23,27 +22,29 @@
     z-index: -1;
   }
   
-  .nav{
+  .header__nav{
     display: inline-flex;
     justify-content: space-around;
     width: 80%;
-    position: absolute;
-    top: 4.4rem;
+    margin-top: 4.4rem;
+   /* position: absolute;
+    top: 4.4rem;*/
+   
   }
 
-  .nav__logo{
+  .header__nav-logo{
     width: 24.6rem;
     height: 6.8rem;
   }
 
-  .nav__lists-box{
+  .header__nav-lists-box{
     display: flex;
     align-items: center;
     gap: 6rem;
     padding: 0;
   }
   
-  .nav__list{
+  .header__nav-list{
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.6rem;
@@ -51,10 +52,10 @@
   
   .header__text-box{
     height: 23rem;
-    position: absolute;
+   /* position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
     text-align: center;
     backface-visibility: hidden;
   }
