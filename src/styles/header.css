@@ -22,29 +22,26 @@
     z-index: -1;
   }
   
-  .header__nav{
+  .nav{
     display: inline-flex;
     justify-content: space-around;
     width: 80%;
-    margin-top: 4.4rem;
-   /* position: absolute;
-    top: 4.4rem;*/
-   
+    margin-top: 4.4rem;   
   }
 
-  .header__nav-logo{
+  .nav__logo{
     width: 24.6rem;
     height: 6.8rem;
   }
 
-  .header__nav-lists-box{
+  .nav__lists-box{
     display: flex;
     align-items: center;
     gap: 6rem;
     padding: 0;
   }
   
-  .header__nav-list{
+  .nav__list{
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.6rem;
@@ -52,19 +49,11 @@
   
   .header__text-box{
     height: 23rem;
-   /* position: absolute;
-    top: 50%;
-    left: 50%;*/
-    /*transform: translate(-50%, -50%);*/
     text-align: center;
     backface-visibility: hidden;
   }
   
   .heading-primary{
-   /* display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    */
     margin-bottom: 4rem;
   }
 

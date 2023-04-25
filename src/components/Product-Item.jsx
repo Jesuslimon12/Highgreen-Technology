@@ -93,7 +93,7 @@ export default function Item_Product(props) {
 
   /**
    * product
-   *  product__carousel-box
+   *  carousel
    *    carousel__control
    *    carousel__imgs-box
    * 
@@ -126,7 +126,7 @@ export default function Item_Product(props) {
         </div>
 
         <div className='product__details-box'>
-            <div className='product__detail'>
+           { /*<div className='product__detail'>*/}
               <h1 className='product__name'> {product_name} </h1>
               <p className='product__description'> {description_product} </p>
 
@@ -138,16 +138,13 @@ export default function Item_Product(props) {
                 }
               
               </div>
-            </div>
+              {/*</div>*/} 
 
             
             <a href='#' className='btn-view'>
               <span className='btn-view--title'>View Product</span> 
               <img className='btn-view--icon' src={IconRightGreen} alt="" />
             </a> 
-            
-                
-            
         </div>
 
 

@@ -5,13 +5,13 @@ import '../styles/header.css'
 export default function Header() {
   /**
    * header
-   *  header__nav
-   *    header__nav-logo-box
-   *        header__nav-logo
+   *  nav
+   *    nav__logo-box
+   *        nav__logo
    *    
-   *    header__nav-lists-box
-   *      header__nav-list
-   *      header__nav-link
+   *    nav___lists-box
+   *      nav__list
+   *      nav__link
    * 
    *   header__text-box
    *    heading-primary
@@ -24,17 +24,17 @@ export default function Header() {
    * * */
   return (
     <header className='header'>
-      <nav className='header__nav'>
+      <nav className='nav'>
 
-        <div className='header__nav-logo-box'>
-          <img src={Highgreen} alt="" className='header__nav-logo'/>
+        <div className='nav__logo-box'>
+          <img src={Highgreen} alt="" className='nav__logo'/>
         </div>
 
-        <ul className='header__nav-lists-box'>
-          <li className='header__nav-list'><a className='header__nav-link' href="#about">About Us</a></li>
-          <li className='header__nav-list'><a className='header__nav-link' href="#products">Products</a></li>
-          <li className='header__nav-list'><a className='header__nav-link' href="">Distributor</a></li>
-          <li className='header__nav-list'><a className='header__nav-link' href="">Contact Us</a></li>
+        <ul className='nav__lists-box'>
+          <li className='nav__list'><a className='nav__link' href="#about">About Us</a></li>
+          <li className='nav__list'><a className='nav__link' href="#products">Products</a></li>
+          <li className='nav__list'><a className='nav__link' href="">Distributor</a></li>
+          <li className='nav__list'><a className='nav__link' href="">Contact Us</a></li>
         </ul>
 
       </nav>

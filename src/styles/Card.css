@@ -1,4 +1,4 @@
-.service{
+.card{
     background: #FFFFFF;
     box-shadow: 0 .2rem .5rem rgba(54, 61, 77, 0.05);
     border-radius: .5rem;
@@ -7,14 +7,14 @@
     width: 25.5rem;
 }
 
-.service__icon{
+.card__icon{
     display: inline-block;
     height: 6rem;
     width: 6rem;
     margin-bottom: 6.2rem;
 }
 
-.service__title{
+.card__title{
     display: inline-block;
     font-weight: 600;
     font-size: 1.8rem;

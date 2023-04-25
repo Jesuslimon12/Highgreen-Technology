@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react'
 import Main_title from './Main-title'
-import Service_Card from './Service-Card'
+import Card from './Card'
 import Feature_Item from './Feature-Item'
 import '../styles/Features.css'
 
@@ -24,7 +24,7 @@ export default function () {
     
     let items = services?.map((service) => 
       
-      <Service_Card key={service.id} icon={service.icon} title={service.title} />
+      <Card key={service.id} icon={service.icon} title={service.title} />
   
     )
 
