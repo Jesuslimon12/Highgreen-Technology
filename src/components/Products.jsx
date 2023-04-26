@@ -21,7 +21,7 @@ export default function Products() {
       
       
       <div className='products__items-box'>
-        <h1 className='product__type highlighted_text'>SWEEPERS</h1>
+        <h1 className='product__type '>SWEEPERS</h1>
         <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
         <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
         <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
@@ -29,13 +29,13 @@ export default function Products() {
       </div>
 
       <div className='products__items-box'>
-        <h1 className='product__type highlighted_text'>DRYERS</h1>
+        <h1 className='product__type '>DRYERS</h1>
         <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
 
       </div>
 
       <div className='products__items-box'>
-        <h1 className='product__type highlighted_text'>CLEANERS</h1>
+        <h1 className='product__type '>CLEANERS</h1>
         <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
       </div>
      

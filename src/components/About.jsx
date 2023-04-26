@@ -1,7 +1,7 @@
 import React from 'react'
 import Main_title from './Main-title'
 import Social_Media from './Social-Media-Icons'
-import '../styles/about.css'
+import '../styles/About.css'
 
 export default function About() {
   /** 20 4 35px**/

@@ -1,6 +1,6 @@
 import React from 'react'
 import Highgreen from '../assets/Logo_Highgreen.svg'
-import '../styles/header.css'
+import '../styles/Header.css'
 
 export default function Header() {
   /**

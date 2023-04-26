@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/main-title.css'
+import '../styles/Main-Title.css'
 
 export default function Main_title(props) {
   const bgtitle = props.bgtitle
