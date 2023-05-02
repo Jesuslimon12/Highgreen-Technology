@@ -30,12 +30,12 @@ function App(){
         <Features />
         <Products />
         {/**<Reviews />**/}
+        <Contact_us />
       </section>
 
-      <section className="main__footer-section">
-        <Contact_us />
-        <Footer />
-      </section>
+      
+      <Footer />
+      
   </main>
 }
 

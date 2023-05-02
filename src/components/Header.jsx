@@ -46,7 +46,7 @@ export default function Header() {
          <span className='heading-primary--sub'>Revolutionary High-Performance Sweepers</span> 
         </h1>
 
-        <a href="#" className='btn-hero'>Let’s clean your mess, together.</a>
+        <a href="#" className='btn btn--hero'>Let’s clean your mess, together.</a>
       </div>
 
       <a href='#' className='btn-show-more tranlsateY-3'>

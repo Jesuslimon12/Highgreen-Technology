@@ -1,11 +1,15 @@
-.btn-hero:link,
-  .btn-hero:visited{
+
+
+.btn:link,
+  .btn:visited{
     display: inline-block;
+    width: 36rem;
+    height: 6rem;
     border: .2rem solid #FFFFFF;
     border-radius: 3rem;
     position: relative; 
     overflow: hidden;
-    padding: 1.3rem 3.3rem;
+    padding: 1.3rem 0;
     font-style: normal;
     font-weight: 600;
     font-size: 2rem;
@@ -13,10 +17,19 @@
     text-align: center;
     color: #FFFFFF;
     transition: all 1.5s;
+    box-sizing: border-box;
+}
+
+.btn--primary{
+  position: relative;
+  background-color: #8ACF3F;
+  z-index: 4;
 }
 
 
-.btn-hero::before{
+
+
+.btn--hero::before{
   content: '';
   width: 0;
   height: 100%;
@@ -28,12 +41,13 @@
   transition: all 1.5s;
 }
 
-.btn-hero:hover::before{
+
+.btn--hero:hover::before{
   width: 100%;
 }
 
-.btn-hero:hover{
-  border: 0;
+.btn--hero:hover{
+  border: .2rem solid transparent;
 }
 
 

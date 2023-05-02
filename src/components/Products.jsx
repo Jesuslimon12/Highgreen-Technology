@@ -1,11 +1,32 @@
-import React from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import Main_title from './Main-title'
 import Product_Item from './Product-Item'
 import '../styles/Products.css'
 
 
 export default function Products() {
-  const description = 'Designed for indoor / outdoor wide area surface cleaning of warehouse and factory flooring, parking lot and sidewalk surfaces, asphalt, concrete and all natural stone hard surfaces.'
+  const [sweepers, setSweepers]  = useState([])
+  useEffect(() => {
+    fetch('json/products.json')
+    .then(response => response.json())
+    .then(datos => {
+      setSweepers(datos.sweepers)
+    })
+  }, [])
+
+    
+  const ShowSweppers = useMemo(() => {
+    
+    let items = sweepers?.map((swepper) => 
+      
+      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} />
+  
+    )
+
+    return items
+
+  },[sweepers])
+
   /**
    * products
    *  products__box
@@ -13,6 +34,7 @@ export default function Products() {
    *    
    * 
    * **/
+  
   return (
     <div id='products' className='products'>
       <Main_title bgtitle={'PRODUCTS'} title={'PRODUCT CATALOG'} letter_spacing={'secondary'} />
@@ -22,30 +44,10 @@ export default function Products() {
       
       <div className='products__items-box'>
         <h1 className='product__type '>SWEEPERS</h1>
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
+        {ShowSweppers}
       </div>
 
-      <div className='products__items-box'>
-        <h1 className='product__type '>DRYERS</h1>
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
 
-      </div>
-
-      <div className='products__items-box'>
-        <h1 className='product__type '>CLEANERS</h1>
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
-      </div>
-     
-
-
-
-
-       
-
-    
     </div>
   )
 }

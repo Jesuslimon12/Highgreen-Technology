@@ -8,8 +8,9 @@ import '../styles/Product-Item.css'
 
 export default function Item_Product(props) {
   const containerRef = useRef()
-  const product_name = props.name
-  const description_product = props.description
+  const model = props.model
+  const description = props.description
+  const characteristics = props.characteristics
   const [Arrayimg, setArrayimg] = useState([Product1, Product2, Product3])
   const [Positionimg, SetPositionimg] = useState(1)
   const [X, setX] = useState(0)
@@ -40,9 +41,17 @@ export default function Item_Product(props) {
     
   }, [Positionimg, Arrayimg])
   
-  const characteristics =
-   [ {characteristic:'Weight', description: '38lb'}, {characteristic: 'Cleaning', description: '31 inches'}, {characteristic:'Brushes' ,description:'Triple brush turbo sweeper'},
-   {characteristic: 'Waste container', description:'13.2 gallon'}, {characteristic:'System', description: 'Belt-Free'},{characteristic: 'Warranty', description:'2yr overall warranty'}  ]
+
+
+  const ShowCharacteritics = useMemo(() => {
+    
+    let items =    characteristics?.map((item, id) => 
+      <span className='product__characteristic' key={id}>{item.characteristic} <span className='text--black'> {item.description} </span> </span>
+    )
+
+    return items
+
+  },[props.characteristics]) 
   
   const ShowCarousel = useMemo(() => {
     if(Arrayimg.length > 1){
@@ -127,14 +136,12 @@ export default function Item_Product(props) {
 
         <div className='product__details-box'>
           { /*<div className='product__detail'>*/}
-          <h1 className='product__name'> {product_name} </h1>
-          <p className='product__description'> {description_product} </p>
+          <h1 className='product__name'> {model} </h1>
+          <p className='product__description'> {description} </p>
 
           <div className='product__characteristics-box'>
             {
-              characteristics?.map((item, id) => 
-                <span className='product__characteristic' key={id}>{item.characteristic} <span className='text--black'> {item.description} </span> </span>
-              )
+              ShowCharacteritics
             }
               
           </div>
