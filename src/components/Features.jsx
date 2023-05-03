@@ -51,7 +51,7 @@ export default function () {
    * **/
   return (
     <div className='features'>
-       <Main_title bgtitle={'FEATURES'} title={'High Quality Products'} letter_spacing={'secondary'}/>
+       <Main_title bgtitle={'FEATURES'} title={'High Quality Products'} letter_spacing={'secondary'} font_size={'normal'} />
        <p className='main-text'>Highgreen Technology's purpose is to simplify the cleaning solution search process for customers by providing a hand-selected product line of only the best solutions for their cleaning needs. <br /> Our current catalog is comprised of the newest Haaga line of sweepers. If our word isnt enough to convince you, here are <span className='main-text--active'> 4 features </span>we love about our product selection: </p>
        
        <div className='features__services-box'>

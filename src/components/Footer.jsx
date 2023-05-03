@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Footer.css'
 import Highgreen from '../assets/Logo_Highgreen.svg'
+import test from '../assets/ImgProduct1.svg'
 
 export default function Footer() {
   return (
@@ -31,7 +32,7 @@ export default function Footer() {
       
   
         
-
+        
 
     </footer>
   )

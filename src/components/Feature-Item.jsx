@@ -53,7 +53,7 @@ export default function Feature_Item(props) {
         <img src={img} alt="" className='feature__card-img' />
         <div className='feature__card-text-box'>
             <span className='badge'>{badge_title}</span>
-            <Main_title bgtitle={feature_num} title={title} letter_spacing={letter_spacing}/>
+            <Main_title bgtitle={feature_num} title={title} letter_spacing={letter_spacing} font_size={'small'} />
         </div>
       </div>
 

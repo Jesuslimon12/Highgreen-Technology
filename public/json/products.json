@@ -84,5 +84,48 @@
             ],
             "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-697-isweep-sweeper"
         }
+    ],
+
+    "floorwash":[
+        {
+            "id":"1",
+            "group":"Hard Surface Cleaner",
+            "model":"FLOORWASH 1400B",
+            "brand":"FLOORWASH",
+            "description":"The Floorwash 1400B battery with rechargeable lithium-ion technology guarantees 1 hour of continuous use 5400 sq. ft. of cleaning with the option of interchanging the battery for continued use.",
+            "designed":"cleans grouted tile, concrete, marble, profiled ceramics, vinyl, rubberized, wood floors inside and outside. The Floorwash 1400B is Ideal for restaurants, hotels, bars, schools, offices, shops, convenience stores, medical centers as well as home use.",
+            "characteristics":[
+        
+                {"characteristic":"Weight", "description":"24 lbs" },
+                {"characteristic":"Cleaning","description":"14 inches" },
+                {"characteristic":"Waste Tank", "description":"0.5 gal." }, 
+                {"characteristic":"System", "description":"Cordless" }, 
+                {"characteristic":"Batery", "description":"1 Hour" }
+             
+            ],
+            "Link":"https://haagastore.com/collections/hard-surface-cleaners/products/floor-wash-1400b-cordless-tile-grout-hard-surface-cleaner"
+
+        }
+    ],
+    
+    "floor_dryer":[
+        {
+            "id":"1",
+            "group":"FLOOR SAFETY",
+            "model":"The Hurricone HSC 6000",
+            "brand":"HURRICONE",
+            "description":"Used all over the world in hotels, restaurants, government buildings, anywhere there is a slip and fall hazard.",
+            "designed":"used all over the world in hotels, restaurants, government buildings, anywhere there is a slip and fall hazard.",
+            "characteristics":[
+        
+                {"characteristic":"Weight", "description":"39 lbs" },
+                {"characteristic":"System","description":"Cordless" },
+                {"characteristic":"Machine Warranty", "description":"1 Year warranty" }, 
+                {"characteristic":"Baterry", "description":"12 hours" }
+             
+            ],
+            "Link":"HURRICONE Cordless Floor Dryer HSC6000 – HaagaStore.com"
+
+        }
     ]
 }

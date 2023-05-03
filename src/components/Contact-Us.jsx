@@ -8,7 +8,7 @@ import Main_title from './Main-title'
 export default function Contact_Us() {
   return (
     <div className='contact-us'>
-      <Main_title bgtitle={'IN TOUCH'} title={'Get It Touch Now'} letter_spacing={'primary'} />
+      <Main_title bgtitle={'IN TOUCH'} title={'Get It Touch Now'} letter_spacing={'primary'} font_size={'normal'} />
       <p className='main-text'>In order to better assist you, please provide us with as much information as possible about your inquiry. This will help us to provide you with a prompt and accurate response. We appreciate your interest in our products/services and look forward to hearing from you! </p>
 
     
