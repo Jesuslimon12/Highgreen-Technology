@@ -1,11 +1,60 @@
-import React from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import Main_title from './Main-title'
 import Product_Item from './Product-Item'
 import '../styles/Products.css'
 
 
 export default function Products() {
-  const description = 'Designed for indoor / outdoor wide area surface cleaning of warehouse and factory flooring, parking lot and sidewalk surfaces, asphalt, concrete and all natural stone hard surfaces.'
+  const [sweepers, setSweepers]  = useState([])
+  const [floorwash, setFloorwash]  = useState([])
+  const [floordryer, setFloordryer]  = useState([])
+  useEffect(() => {
+    fetch('json/products.json')
+    .then(response => response.json())
+    .then(datos => {
+      setSweepers(datos.sweepers)
+      setFloorwash(datos.floorwash)
+      setFloordryer(datos.floor_dryer)
+    })
+  }, [])
+
+    
+  const ShowSweppers = useMemo(() => {
+    
+    let items = sweepers?.map((swepper) => 
+      
+      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} />
+  
+    )
+
+    return items
+
+  },[sweepers])
+
+  const ShowFloorwash = useMemo(() => {
+    
+    let items = floorwash?.map((swepper) => 
+      
+      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} />
+  
+    )
+
+    return items
+
+  },[floorwash])
+
+  const ShowFloordryer = useMemo(() => {
+    
+    let items = floordryer?.map((swepper) => 
+      
+      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} />
+  
+    )
+
+    return items
+
+  },[floordryer])
+
   /**
    * products
    *  products__box
@@ -13,39 +62,31 @@ export default function Products() {
    *    
    * 
    * **/
+  
   return (
     <div id='products' className='products'>
-      <Main_title bgtitle={'PRODUCTS'} title={'PRODUCT CATALOG'} />
+      <Main_title bgtitle={'PRODUCTS'} title={'PRODUCT CATALOG'} letter_spacing={'secondary'} font_size={'normal'} />
       <p className='main-text'>Our product category provides a hassle-free experience with carefully curated products that just work. Our team of experts, with over a decade of industry experience, ensures that each product offers more benefits than troubles. We've included everything we wished we had known from the beginning, from easy-to-use design to our commitment to quality sustainability and efficient execution.
         Experience the difference with our simple and efficient products that exceed expectations. Choose us for a hassle-free solution!</p>
       
       
       <div className='products__items-box'>
-        <h1 className='product__type highlighted_text'>SWEEPERS</h1>
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
+        <h1 className='product__type'>sweepers</h1>
+        {ShowSweppers}
+      </div>
+
+      
+      <div className='products__items-box'>
+        <h1 className='product__type'>floorwash</h1>
+        {ShowFloorwash}
       </div>
 
       <div className='products__items-box'>
-        <h1 className='product__type highlighted_text'>DRYERS</h1>
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
-
+        <h1 className='product__type'>floor dryer</h1>
+        {ShowFloordryer}
       </div>
 
-      <div className='products__items-box'>
-        <h1 className='product__type highlighted_text'>CLEANERS</h1>
-        <Product_Item name={'HAAGA 477 Sweeper'} description={description} />
-      </div>
-     
 
-
-
-
-       
-
-    
     </div>
   )
 }

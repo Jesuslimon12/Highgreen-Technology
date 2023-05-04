@@ -7,7 +7,8 @@
             "badge_title":"Turbo system",
             "title":"Advanced Turbo Sweeping System",
             "description":"The Turbo sweeping system is a patented feature that allows for efficient sweeping with just one move. The system utilizes its front two brushes that rotate in opposite directions, effectively grabbing debris directly in front of the sweeper. In addition, a brush roller on the bottom of the system picks up fine particles. This innovative feature ensures that your sweeping is completed quickly and thoroughly, with minimal effort required on your part.",
-            "advantage":["Higher cleaning efficiency","Faster Cleaning","Reduced Effort Required"]
+            "advantage":["Higher cleaning efficiency","Faster Cleaning","Reduced Effort Required"],
+            "letter_spacing":"tertiary"
 
         },
         {
@@ -17,7 +18,8 @@
             "badge_title":"Ease of Use",
             "title":"Easy to Use",
             "description":"All Haaga products have a lightweight and maneuverable design for less fatigue and easy transport and agility in comparison with its direct competitors. This is important because it widens the range of possible use case scenarios, making it more versatile for both indoor and outdoor use.",
-            "advantage":["Lightweight Design","Versatile Movement","Indoor + Outdoor Use"]
+            "advantage":["Lightweight Design","Versatile Movement","Indoor + Outdoor Use"],
+            "letter_spacing":"secondary"
 
         },
         {
@@ -27,7 +29,8 @@
             "badge_title":"Belt-less tech",
             "title":"No Belt, No Problem",
             "description":"<span class='highlighted_text'> Highgreen Technology </span> is committed to providing innovative solutions that meet the needs of any customer. Our selection of Haaga sweepers utilize a belt-less technology that reduces maintenance frequency and cost to the users. With less mechanic issues, we get reducing maintenance costs and improved worker efficiency.",
-            "advantage":["Innovative Design","Reduced Maintenance Issues","Reduced Maintenance Costs"]
+            "advantage":["Innovative Design","Reduced Maintenance Issues","Reduced Maintenance Costs"],
+            "letter_spacing":"primary"
 
         },
         {
@@ -37,7 +40,8 @@
             "badge_title":"ECO-FRIENDLY",
             "title":"Eco-Friendly Technology and Materials",
             "description":"<span class='main-text--active'> Highgreen Technology </span> is committed to providing innovative solutions that meet the needs of any customer. Haaga sweepers use eco-friendly technology and materials by being not requiring electricity to function, utilizing Turbo sweeping technology, being built with durable and recyclable materials, having a large collection container, and ultimately reducing energy consumption, waste, and reliance on non-renewable resources.",
-            "advantage":["Manually Operated","Eco-Friendly Materials","Reduced Energy Consumption"]
+            "advantage":["Manually Operated","Eco-Friendly Materials","Reduced Energy Consumption"],
+            "letter_spacing":"primary"
 
         }
     

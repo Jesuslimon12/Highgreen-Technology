@@ -1,16 +1,17 @@
 import React from 'react'
 import Highgreen from '../assets/Logo_Highgreen.svg'
-import '../styles/header.css'
+import '../styles/Header.css'
 
 export default function Header() {
   /**
    * header
-   *  header__nav-box
-   *    header__logo-box
-   *        header__logo
+   *  nav
+   *    nav__logo-box
+   *        nav__logo
    *    
-   *    header__nav
-   *      header__nav-item
+   *    nav___lists-box
+   *      nav__list
+   *      nav__link
    * 
    *   header__text-box
    *    heading-primary
@@ -19,14 +20,7 @@ export default function Header() {
    *    btn-heading
    *   
    *   btn-show-more   
-   *     
-   * nav
-   *  nav__logo-box
-   *    nav_logo
-   * 
-   *  nav__lists-box
-   *    nav__list
-   *      nav__link
+   *
    * * */
   return (
     <header className='header'>
@@ -52,10 +46,10 @@ export default function Header() {
          <span className='heading-primary--sub'>Revolutionary High-Performance Sweepers</span> 
         </h1>
 
-        <a href="#" className='btn btn--heading'>Let’s clean your mess, together.</a>
+        <a href="#" className='btn btn--hero'>Let’s clean your mess, together.</a>
       </div>
 
-      <a href='#' className='btn btn--showmore'>
+      <a href='#' className='btn-show-more tranlsateY-3'>
         Show More
       </a>
     </header>

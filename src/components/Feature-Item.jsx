@@ -9,6 +9,7 @@ export default function Feature_Item(props) {
   const title = props.title
   const description = props.description
   const advantages = props.advantages
+  const letter_spacing = props.letter_spacing
   
   function check_paragraph_highlighted(paragraph){
     /*let arr = [...paragraph]
@@ -36,10 +37,10 @@ export default function Feature_Item(props) {
   }
   /**
    * feature
-   *  feature__card-box
+   *  feature__card
    *   feature__card-img
    *   feature__card-text-box  
-   *      feature__card-text-badge
+   *      badge
    *  
    * 
    *  feature__advantages-box
@@ -48,11 +49,11 @@ export default function Feature_Item(props) {
   return (
     <div className='feature'>
 
-      <div className='feature__card-box'>
+      <div className='feature__card'>
         <img src={img} alt="" className='feature__card-img' />
         <div className='feature__card-text-box'>
-            <span className='feature__card-text-badge'>{badge_title}</span>
-            <Main_title bgtitle={feature_num} title={title} />
+            <span className='badge'>{badge_title}</span>
+            <Main_title bgtitle={feature_num} title={title} letter_spacing={letter_spacing} font_size={'small'} />
         </div>
       </div>
 

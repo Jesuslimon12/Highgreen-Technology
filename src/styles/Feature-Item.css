@@ -4,7 +4,7 @@
     gap: 10rem;
 }
 
-.feature__card-box{
+.feature__card{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(calc(54rem - 2.1rem), 1fr));
@@ -19,18 +19,16 @@
  
 }
 
-.feature__card-text-box{
+/*.feature__card-text-box{
     display: flex;
     flex-direction: column;
     justify-content: top;
+}*/
 
-}
-
-.feature__card-text-badge{
-    width: 13.6rem;
-    height: 3rem;
+.badge{
+    display: inline-block;
+    padding: .5rem 2rem;
     position: relative;
-
     font-weight: 700;
     font-size: 1.2rem;
     line-height: 2rem;
@@ -39,13 +37,13 @@
     text-align: center;
 }
 
-.feature__card-text-badge::after{
+.badge::after{
     content: '';
     width: 100%;
     height: 100%;
     position: absolute;
     left: 50%;
-    top: 35%;
+    top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 3rem;
     background: #8ACF3F;
@@ -70,7 +68,7 @@
 
 .feature__advantage{
     width: calc(25.5rem - 5rem);
-    height: calc(11.6rem - 8rem);
+    height: calc(11.6rem - 9.8rem);
     padding: 4rem 2.5rem;
     background: #E2F1D6;
     box-shadow: 0 .2rem .5rem rgba(54, 61, 77, 0.05);
@@ -79,6 +77,6 @@
     text-align: center;
     font-style: normal;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 
 }

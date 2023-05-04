@@ -1,62 +1,89 @@
+
+
 .btn:link,
   .btn:visited{
     display: inline-block;
+    width: 36rem;
+    height: 6rem;
+    border: .2rem solid #FFFFFF;
     border-radius: 3rem;
+    position: relative; 
+    overflow: hidden;
+    padding: 1.3rem 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 1.5s;
+    box-sizing: border-box;
+}
+
+.btn--primary{
+  position: relative;
+  background-color: #8ACF3F;
+  z-index: 4;
+}
+
+
+
+
+.btn--hero::before{
+  content: '';
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #8ACF3F;
+  transition: all 1.5s;
+}
+
+
+.btn--hero:hover::before{
+  width: 100%;
+}
+
+.btn--hero:hover{
+  border: .2rem solid transparent;
+}
+
+
+
+
+
+.btn-show-more:link,
+  .btn-show-more:visited{
+    display: inline-block;
+    padding: 1.5rem 3.3rem;
+    background: #FFFFFF;
+    box-shadow: 0 1rem 3rem rgba(77, 77, 77, 0.05);
+    border-radius: 3rem;
+    font-style: normal;
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 3rem;
     text-align: center;
-    cursor: pointer;
+    color: #175156;
+}
+
+
+  .tranlsateY-3{
+    transform: translateY(3rem);
   }
 
-  .btn--heading{
-    border: .2rem solid #FFFFFF;  
-    position: relative; 
-    overflow: hidden;
-    padding: 1.3rem 3.3rem;
-   
-  }
+.btn-view:link,
+.btn-view:visited{
+  display: flex !important;
+  align-items: center;
+  justify-content:space-between;
+  width: 12rem;
+  border-radius: unset !important;
+} 
 
-  .btn--heading::before{
-    content: '';
-    width: 0;
-    height: 100%;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #8ACF3F;
-    transition: all 1.5s;
-  }
-
-  .btn--heading:hover::before{
-    width: 100%;
-  }
-
-  .btn--heading:hover{
-    border: 0;
-  }
-
-
-  .btn--showmore{
-    background: #FFFFFF;
-    box-shadow: 0rem 1rem 3rem rgba(77, 77, 77, 0.05);
-    padding: 1.5rem 3.1rem;
-    position: absolute;
-    bottom: 0;
-    transform: translate(0, 3rem);
-    color: #175156 !important;
-  }
-
-  .btn--view{
-    display: flex !important;
-    align-items: center;
-    justify-content:space-between;
-    width: 12rem;
-    border-radius: unset !important;
-  } 
-
-  .btn--view-title{
+  .btn-view--title{
     font-weight: 700;
     font-size: 1.2rem;
     line-height: 3rem;
@@ -64,7 +91,7 @@
    
   }
 
-  .btn--view-icon{
+  .btn-view--icon{
     width: 1.558rem;
     height: 1.518rem;
   }

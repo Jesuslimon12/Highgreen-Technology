@@ -13,8 +13,8 @@ html{
 
 
 body{
-  box-sizing: inherit;
-  font-family: 'Mulish', sans-serif;
+  box-sizing: border-box;
+  font-family: 'Mulish';
   font-style: normal;
   color: #FFFFFF;
 }
@@ -61,7 +61,7 @@ a{
 }
 
 
-.main__footer__section{
+.main__footer-section{
   margin-top: 37rem; 
 }
 

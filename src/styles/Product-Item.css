@@ -7,6 +7,7 @@
     background: #FFFFFF;
     box-shadow: 0rem .2rem .5rem rgba(54, 61, 77, 0.05);
     border-radius: .5rem;
+    overflow: hidden;
    
 }
 
@@ -87,22 +88,15 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 3rem;
-    border-radius: inherit;
-    gap: 3rem;
 }
 
-.product__detail{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    
-}
 
 .product__name{
     font-weight: 500;
     font-size: 2rem;
     line-height: 3rem;
     color: #175156;
+ 
 }
 
 .product__description{
@@ -111,6 +105,7 @@
     font-size: 1.2rem;
     line-height: 1.8rem;
     color: #7D8FB3;
+    
 }
 
 .product__characteristics-box{
@@ -118,6 +113,7 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 3.3rem;
+  
 }
 
 .product__characteristic{

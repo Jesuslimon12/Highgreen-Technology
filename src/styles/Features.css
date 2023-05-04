@@ -24,6 +24,6 @@
 
 }
 
-.fetures__items-box > div:nth-child(2n) .feature{
+.features__items-box > .feature:nth-child(2n) .feature__card{
     direction: rtl;
 }
