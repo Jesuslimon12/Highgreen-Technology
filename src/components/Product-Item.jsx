@@ -1,8 +1,8 @@
 import React, { useEffect, useLayoutEffect } from 'react'
 import { useState, useMemo, useRef} from "react";
-import Product1 from '../assets/ImgProduct1.svg'
-import Product2 from '../assets/ImgF2.svg'
-import Product3 from '../assets/ImgF3.svg'
+import Product1 from '../assets/ImgF2.svg'
+import Product2 from '../assets/ImgF3.svg'
+import Product3 from '../assets/ImgF4.svg'
 import IconRightGreen from '../assets/RightIconGreen.svg'
 import '../styles/Product-Item.css'
 
