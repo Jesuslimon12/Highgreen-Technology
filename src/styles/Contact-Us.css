@@ -8,7 +8,9 @@
 
 
 .form{
-    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
   
 }
 
@@ -21,9 +23,13 @@
     display: flex;
     justify-content: center;
     gap: 3rem;
+
 }
 
 .form__group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     position: relative;
 }
 
@@ -44,15 +50,16 @@
     position: absolute;
     right: 2rem;
     top: 0;
-    transform: translateY(105%);
+    transform: translateY(100%);
 }
 
 
 .form__input{
-    width: 32rem;
-    height: 6rem;
+    /*width: 32rem;
+    height: 6rem;*/
+    width: 100%;
     display: block;
-    padding: 0 4rem 0 3rem;
+    padding: 2.2rem 4rem 2.2rem 3rem;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -66,8 +73,8 @@
 }
 
 .form__input--msg{
-    width: 67rem;
-    height: 6rem;
+   /* width: 67rem;
+    height: 6rem;*/
 }
 
 .form__input:placeholder-shown + .form__label{
@@ -84,4 +91,13 @@
     outline: none;
     
 }
+
+.form__input:-webkit-autofill,
+.form__input:-webkit-autofill:hover, 
+.form__input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    -webkit-text-fill-color: #175156;
+}
+
+
 

@@ -25,7 +25,8 @@
 .btn--primary{
   position: relative;
   background-color: #8ACF3F;
-  z-index: 4;
+  /*z-index: 4;*/
+  align-self: center;
 }
 
 
