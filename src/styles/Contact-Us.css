@@ -26,6 +26,14 @@
 
 }
 
+@media only screen and (max-width: 75em) {
+    .form__row{
+        flex-direction: column;
+    }
+
+}
+
+
 .form__group{
     width: 100%;
     display: flex;
@@ -53,10 +61,10 @@
     transform: translateY(100%);
 }
 
-
-.form__input{
+.form__input, .form__textarea{
     /*width: 32rem;
     height: 6rem;*/
+    font-family: inherit;
     width: 100%;
     display: block;
     padding: 2.2rem 4rem 2.2rem 3rem;
@@ -72,10 +80,47 @@
     box-sizing: border-box;
 }
 
-.form__input--msg{
-   /* width: 67rem;
-    height: 6rem;*/
+.form__textarea--msg{
+    display: none;
+    height: 15vh; 
 }
+
+@media only screen and (max-width: 75em) {
+    
+    .form__input--msg-desktop{
+        display: none;
+    }
+
+    .form__textarea{
+        display: block;
+        padding: 3rem 7rem 3rem 4rem;
+    }
+
+    .form__textarea--msg + .form__icon{
+        top: 2.5rem;
+        right: 2rem;
+     
+    }
+}
+
+
+@media only screen and (max-width: 56.25em) {
+    .form__input{
+        padding: 3rem 7rem 3rem 4rem;
+    }
+    
+
+    .form__icon{
+        width: 4rem;
+        height: 4rem;
+        transform: translateY(75%);
+    }
+
+   
+    
+
+}
+
 
 .form__input:placeholder-shown + .form__label{
     opacity: 0;
@@ -83,11 +128,11 @@
     transform: translate(3rem , -4rem);
 }
 
-.form__input::-webkit-input-placeholder{
+.form__input::-webkit-input-placeholder, .form__textarea::-webkit-input-placeholder{
     color: #175156;
 }
 
-.form__input:focus{
+.form__input:focus,.form__textarea:focus{
     outline: none;
     
 }

@@ -1,5 +1,7 @@
 .footer{
-    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     background-color:#175156;
     margin-top: 16rem;
@@ -8,14 +10,13 @@
 
 .footer__copyright{
     font-weight: 600;
-    font-size: 20px;
-    line-height: 16px;
+    font-size: 2rem;
+    line-height: 1.6rem;
     padding: 6rem 0;
 }
 
 .nav--footer{
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 4rem;
     padding-bottom: 6rem;
@@ -23,58 +24,44 @@
 }
 
 .nav__text{
+    max-width: 80%;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    max-width: 94rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
     text-align: left;
 }
 
-.test{
-    width: 40rem;
+@media only screen and (max-width: 75em) {
+    .footer .nav{
+        gap: 5rem;
+    }
+    .footer .nav__logo-box .nav__logo{
+        width: 100%;
+        height: 100%;
+ 
+    }
+
+    .footer .nav__text{
+        max-width: 100%;
+        font-size: 3rem;
+        line-height: 4rem;  
+    }
+
+    .footer .nav__lists-box{
+        flex-direction: column;
+    }
+
+    .footer .nav__lists-box .nav__list{
+        font-size: 3rem;
+    }
+
+    .footer__copyright{
+        font-size: 3rem;
+        line-height: 3.5rem;
+        max-width: 50%;
+        text-align: center;
+    }
     
-  
-    transform: scale(1);
-    margin: 0 auto;
-    clip-path: inset(0 0 100% 0);
-    animation: 2.5s cubic-bezier(.25, 1, .30, 1) example infinite;
-    position: relative;
-   
-}
-
-.test-card::before{
-    position: absolute;
-    content: '';
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background-color: red;
-    z-index: 1;
-}
-
-.test img{
-    display: block;
-    object-fit: cover;
-    width: 100%;
-    object-position: center;
 }
 
 
-.test-card span{
-    display: block;
-    font-size: 12rem;
-    color: black;
-    width: 100%;
-}
-
-@keyframes example {
-    0%   { clip-path: inset(0 0 100% 0);}
-  
-  50%  { clip-path: inset(0 0 30% 0);}
-
-
-   
-
-  100% { clip-path: inset(0 0 0 0); transform: scale(1.1);}
-  }

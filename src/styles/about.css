@@ -8,10 +8,17 @@
     
 }
 
-.list-icons{
+.logo__list{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 6rem;
+    gap: 10rem;
 }
+
+@media only screen and (max-width: 56.25em) {
+  .logo__img{
+    height: 30rem;
+    width: 30rem;
+  }
+}
+
+
 

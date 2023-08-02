@@ -9,8 +9,17 @@
 html{
   scroll-behavior: smooth;
   font-size: 62.5%;
+  -webkit-text-size-adjust: none; /* none for no scaling */
 }
 
+ /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+ @media only screen and (max-width: 56.25em) {
+  html{
+    font-size: 31.25%; 
+  }
+
+
+}
 
 body{
   box-sizing: border-box;
@@ -51,12 +60,12 @@ a{
   background: #F8FAFC;
 }
 
-.main__sections{
+.sections-box{
   max-width: 110rem;
   margin: 0 auto;
 }
 
-.main__sections > div{
+.sections-box > div{
   margin-top: 15rem;
 }
 

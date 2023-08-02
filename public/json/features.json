@@ -1,5 +1,5 @@
 {
-  "feature_items": [
+  "feature_haaga": [
         {    
             "id":"1",
             "feature_number":"One",
@@ -47,7 +47,45 @@
     
     ],
 
-    "features_services":[
+    "feature_namco": [
+        {    
+            "id":"1",
+            "feature_number":"One",
+            "img":"ImgF1",
+            "badge_title":"Turbo system",
+            "title":"Advanced Turbo Sweeping System",
+            "description":"The Turbo sweeping system is a patented feature that allows for efficient sweeping with just one move. The system utilizes its front two brushes that rotate in opposite directions, effectively grabbing debris directly in front of the sweeper. In addition, a brush roller on the bottom of the system picks up fine particles. This innovative feature ensures that your sweeping is completed quickly and thoroughly, with minimal effort required on your part.",
+            "advantage":["Higher cleaning efficiency","Faster Cleaning","Reduced Effort Required"],
+            "letter_spacing":"tertiary"
+
+        }
+    
+    ],
+
+    "services_haaga":[
+        {
+            "id":"1",
+            "title":"Turbo System",
+            "icon":"turbosystem"
+        },
+        {
+            "id":"2",
+            "title":"Easy to Use",
+            "icon":"easytouse"
+        },
+        {
+            "id":"3",
+            "title":"Low Maintenance Technology",
+            "icon":"lessmaintenance"
+        },
+        {
+            "id":"4",
+            "title":"Eco-Friendly",
+            "icon":"ecofriendly"
+        }
+    ],
+
+    "services_namco":[
         {
             "id":"1",
             "title":"Turbo System",

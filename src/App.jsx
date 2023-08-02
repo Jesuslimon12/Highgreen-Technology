@@ -1,13 +1,13 @@
-import Header from './components/Header'
-import About from './components/About'
-import Features from './components/Features'
-import Products from './components/Products'
-import Reviews from './components/Reviews'
-import Contact_us from './components/Contact-Us'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import ScrollToTop from "./components/ScrollToTop";
+import Main from './components/Main'
+import Haaga from './components/Haaga'
+import Naamco from './components/Naamco'
 import Footer from './components/Footer'
 import './index.css'
 import './styles/Buttons.css'
 import './styles/Typography.css'
+import './styles/Header.css'
 
 
 
@@ -23,15 +23,26 @@ function App(){
   
   **/
   return <main className='main'>
-      <Header />
+    
 
-      <section className='main__sections'>
+      <Router>
+        <ScrollToTop />
+        <Routes>
+            <Route path="/" element={ <Main /> } />
+            <Route path="/haaga" element={ <Haaga /> } />
+            <Route path="/naamco" element={ <Naamco /> } />
+        </Routes>
+      </Router>
+
+     {/* <section className='main__sections'>
         <About />
         <Features />
         <Products />
-        {/**<Reviews />**/}
+     
         <Contact_us />
-      </section>
+      </section>*/ }
+      
+      
 
       
       <Footer />

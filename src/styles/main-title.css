@@ -10,7 +10,7 @@
 
 
 .main__title--bg{
-    width: max-content;
+    /*width: max-content;*/
     position: absolute;
     text-align: center;
     font-weight: 800;
@@ -21,8 +21,13 @@
     mix-blend-mode: normal;
     opacity: 0.1;
     /*letter-spacing: 4.5px;*/
-    
+}
 
+  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+@media only screen and (max-width: 75em) {
+  .main__title--bg{
+    font-size: 10rem;
+  }
 }
 
 .main__title--primary{
@@ -45,9 +50,6 @@
     letter-spacing: 3.5rem;
 }
 
-.main__title--ls-tertiary{
-    letter-spacing: 3.5rem;
-}
 
 .main__title-fs--normal{
     font-size: 3.6rem;
@@ -55,4 +57,21 @@
 
 .main__title-fs--small{
     font-size: 3rem;
+}
+
+  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+@media only screen and (max-width: 75em) {
+    .main__title--ls-primary{
+        letter-spacing: 0;
+    }
+    .main__title--ls-secondary{
+        letter-spacing: 1rem;
+    }
+    .main__title--ls-tertiary{
+        letter-spacing: 1rem;
+    }
+
+    .main__title-fs--small{
+        font-size: 4rem;
+    }
 }

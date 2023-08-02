@@ -1,17 +1,18 @@
 import React, { useEffect, useLayoutEffect } from 'react'
-import { useState, useMemo, useRef} from "react";
-import Product1 from '../assets/ImgF2.svg'
-import Product2 from '../assets/ImgF3.svg'
-import Product3 from '../assets/ImgF4.svg'
+import { useState, useMemo, useRef} from "react"
+import IMAGES from '../images/ProductsImgs'
 import IconRightGreen from '../assets/RightIconGreen.svg'
 import '../styles/Product-Item.css'
 
 export default function Item_Product(props) {
   const containerRef = useRef()
+
+  const [dimensions, setDimensions] = useState();
   const model = props.model
   const description = props.description
   const characteristics = props.characteristics
-  const [Arrayimg, setArrayimg] = useState([Product1, Product2, Product3])
+  const galleryimg = props.gallery
+  const [Arrayimg, setArrayimg] = useState([])
   const [Positionimg, SetPositionimg] = useState(1)
   const [X, setX] = useState(0)
   const ctranslateX = 'translateX(-'+X+'px)'
@@ -19,17 +20,19 @@ export default function Item_Product(props) {
     transform: ctranslateX
   }
 
+
   useEffect(() => {
+    
 
     const transitionEnd = () => {
       if(Positionimg <= 1){
         containerRef.current.style.transitionDuration = '0ms'
-        setX(650 * Positionimg)
+        setX(dimensions * Positionimg)
       }
 
       if(Positionimg >= Arrayimg.length){
         containerRef.current.style.transitionDuration = '0ms'
-        setX(650 * Arrayimg.length)
+        setX(dimensions * Arrayimg.length)
       }
 
     }
@@ -40,6 +43,8 @@ export default function Item_Product(props) {
     }
     
   }, [Positionimg, Arrayimg])
+
+
   
 
 
@@ -62,7 +67,7 @@ export default function Item_Product(props) {
       )
 
       return [
-        <img  className='carousel__img'  key={Arrayimg.length + 1} src={Arrayimg[Arrayimg.length-1 ]} alt="" />,
+        <img  className='carousel__img'  key={Arrayimg.length + 1} src={Arrayimg[Arrayimg.length-1]} alt="" />,
         ...items,
        <img  className='carousel__img' key={Arrayimg.length + 2} src={Arrayimg[0]} alt="" />,
       ]
@@ -73,17 +78,32 @@ export default function Item_Product(props) {
   },[Arrayimg])
 
   useLayoutEffect(() => {
-    setX(650 * 1)
+    
+
+    setimg(galleryimg)
+    if(screen.width < 900){
+ 
+      setX(325* 1)
+      setDimensions(325);
+    }else{
+      setX(650* 1)
+      setDimensions(650);
+   
+    }
+
+
+    
+   
   },[])
 
   const nextImg = () => {
     
     containerRef.current.style.transitionDuration = '400ms'
     if(Positionimg >= Arrayimg.length){
-      setX(650 * (Arrayimg.length + 1))
+      setX(dimensions * (Arrayimg.length + 1))
       SetPositionimg(1)  
     }else{
-      setX(650 * (Positionimg + 1))
+      setX(dimensions * (Positionimg + 1))
       SetPositionimg((prev) =>  ++prev)
     }
   }
@@ -95,9 +115,19 @@ export default function Item_Product(props) {
       setX(0)
       SetPositionimg(Arrayimg.length)
     }else{
-      setX(650 * (Positionimg - 1))
+      setX(dimensions * (Positionimg - 1))
       SetPositionimg((prev) =>  --prev)
     }
+  }
+
+  function setimg(name){
+    if(name === 'first_product'){
+      setArrayimg((prevState) => [...prevState, ...Object.values(IMAGES.first_product)])
+    }
+    if(name === 'second_product'){
+      setArrayimg((prevState) => [...prevState, ...Object.values(IMAGES.second_product)])
+    }
+  
   }
 
   /**
@@ -136,7 +166,7 @@ export default function Item_Product(props) {
 
         <div className='product__details-box'>
           { /*<div className='product__detail'>*/}
-          <h1 className='product__name'> {model} </h1>
+          <h1 className='product__name'> {model}</h1>
           <p className='product__description'> {description} </p>
 
           <div className='product__characteristics-box'>

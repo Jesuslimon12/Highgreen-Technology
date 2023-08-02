@@ -14,7 +14,7 @@ export default function Contact_Us() {
     
   }
   return (
-    <div className='contact-us'>
+    <div className='contact-us' id='contact'>
       <Main_title bgtitle={'IN TOUCH'} title={'Get It Touch Now'} letter_spacing={'primary'} font_size={'normal'} />
       <p className='main-text'>In order to better assist you, please provide us with as much information as possible about your inquiry. This will help us to provide you with a prompt and accurate response. We appreciate your interest in our products/services and look forward to hearing from you! </p>
 
@@ -54,8 +54,10 @@ export default function Contact_Us() {
 
             <div className="form__row">
               <div className="form__group ">
-                <input type="text" className="form__input form__input--msg" name="message" id="message" placeholder="Your Message" required/>
+                <input type="text" className="form__input form__input--msg-desktop" name="message" id="message" placeholder="Your Message" required/>
                 <label htmlFor="message" className="form__label">Your Message</label>
+                <textarea className='form__textarea form__textarea--msg' name="message" id="message" placeholder="Your Message" required></textarea>
+              
                 <img src={MsgIcon} alt="User icon" className='form__icon'/>
               </div>
             </div>

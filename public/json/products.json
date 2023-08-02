@@ -19,7 +19,8 @@
                 {"characteristic":"Baterry", "description":"N/A" }
              
             ],
-            "Link":"https://haagastore.com/collections/commercial-sweepers/products/haaga-477-sweeper"
+            "Link":"https://haagastore.com/collections/commercial-sweepers/products/haaga-477-sweeper",
+            "gallery":"first_product"
         },
         {
             "id":"2",
@@ -40,7 +41,8 @@
                 {"characteristic":"Baterry", "description":"N/A" }
              
             ],
-            "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-677-isweep-sweeper"
+            "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-677-isweep-sweeper",
+            "gallery":"first_product"
         },
         {
             "id":"3",
@@ -61,7 +63,8 @@
                 {"characteristic":"Baterry", "description":"2 hours" }
              
             ],
-            "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-677-isweep-sweeper"
+            "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-677-isweep-sweeper",
+            "gallery":"first_product"
         },
         {
             "id":"4",
@@ -82,7 +85,8 @@
                 {"characteristic":"Baterry", "description":"2 hours" }
              
             ],
-            "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-697-isweep-sweeper"
+            "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-697-isweep-sweeper",
+            "gallery":"first_product"
         }
     ],
 
@@ -103,7 +107,8 @@
                 {"characteristic":"Batery", "description":"1 Hour" }
              
             ],
-            "Link":"https://haagastore.com/collections/hard-surface-cleaners/products/floor-wash-1400b-cordless-tile-grout-hard-surface-cleaner"
+            "Link":"https://haagastore.com/collections/hard-surface-cleaners/products/floor-wash-1400b-cordless-tile-grout-hard-surface-cleaner",
+            "gallery":"first_product"
 
         }
     ],
@@ -124,7 +129,30 @@
                 {"characteristic":"Baterry", "description":"12 hours" }
              
             ],
-            "Link":"HURRICONE Cordless Floor Dryer HSC6000 – HaagaStore.com"
+            "Link":"HURRICONE Cordless Floor Dryer HSC6000 – HaagaStore.com",
+            "gallery":"second_product"
+
+        }
+    ],
+    "scrubbers":[
+        {
+            "id":"1",
+            "group":"Floorwash 5000 Multi-Surface Floor Scrubber",
+            "model":"Floorwash 5000 Multi-Surface Floor Scrubber",
+            "brand":"Namco Manufacturing",
+            "description":"The Floorwash 1400B battery with rechargeable lithium-ion technology guarantees 1 hour of continuous use 5400 sq. ft. of cleaning with the option of interchanging the battery for continued use.",
+            "designed":"To clean both hard floor surfaces and carpets with a single pass, making it an efficient and versatile cleaning solution for any environment.",
+            "characteristics":[
+        
+                {"characteristic":"Weight", "description":"24 lbs" },
+                {"characteristic":"Cleaning","description":"14 inches" },
+                {"characteristic":"Waste Tank", "description":"1 gal." }, 
+                {"characteristic":"System", "description":"Cordless" }, 
+                {"characteristic":"Batery", "description":"1 Hour" }
+             
+            ],
+            "Link":"https://namcomfg.com/collections/facilities-equipment/products/namco-floorwash-5000",
+            "gallery":"second_product"
 
         }
     ]

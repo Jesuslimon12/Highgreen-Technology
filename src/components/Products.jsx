@@ -8,6 +8,7 @@ export default function Products() {
   const [sweepers, setSweepers]  = useState([])
   const [floorwash, setFloorwash]  = useState([])
   const [floordryer, setFloordryer]  = useState([])
+  const [scrubbers, setScrubbers]  = useState([])
   useEffect(() => {
     fetch('json/products.json')
     .then(response => response.json())
@@ -15,6 +16,7 @@ export default function Products() {
       setSweepers(datos.sweepers)
       setFloorwash(datos.floorwash)
       setFloordryer(datos.floor_dryer)
+      setScrubbers(datos.scrubbers)
     })
   }, [])
 
@@ -23,7 +25,7 @@ export default function Products() {
     
     let items = sweepers?.map((swepper) => 
       
-      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} />
+      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics}  gallery={swepper.gallery}/>
   
     )
 
@@ -35,7 +37,7 @@ export default function Products() {
     
     let items = floorwash?.map((swepper) => 
       
-      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} />
+      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics}  gallery={swepper.gallery}/>
   
     )
 
@@ -47,13 +49,27 @@ export default function Products() {
     
     let items = floordryer?.map((swepper) => 
       
-      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} />
+      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} gallery={swepper.gallery} />
   
     )
 
     return items
 
   },[floordryer])
+
+  const ShowScrubbers = useMemo(() => {
+    
+    let items = scrubbers?.map((swepper) => 
+      
+      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} gallery={swepper.gallery} />
+  
+    )
+
+    return items
+
+  },[scrubbers])
+
+  
 
   /**
    * products
@@ -84,6 +100,11 @@ export default function Products() {
       <div className='products__items-box'>
         <h1 className='product__type'>floor dryer</h1>
         {ShowFloordryer}
+      </div>
+
+      <div className='products__items-box'>
+        <h1 className='product__type'>scrubbers</h1>
+        {ShowScrubbers}
       </div>
 
 

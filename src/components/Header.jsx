@@ -1,5 +1,7 @@
 import React from 'react'
+import Nav from './Nav'
 import Highgreen from '../assets/Logo_Highgreen.svg'
+import HamburgerIcon from '../assets/icon-hamburger.svg'
 import '../styles/Header.css'
 
 export default function Header() {
@@ -24,32 +26,19 @@ export default function Header() {
    * * */
   return (
     <header className='header'>
-      <nav className='nav'>
-
-        <div className='nav__logo-box'>
-          <img src={Highgreen} alt="" className='nav__logo'/>
-        </div>
-
-        <ul className='nav__lists-box'>
-          <li className='nav__list'><a className='nav__link' href="#about">About Us</a></li>
-          <li className='nav__list'><a className='nav__link' href="#products">Products</a></li>
-          <li className='nav__list'><a className='nav__link' href="">Distributor</a></li>
-          <li className='nav__list'><a className='nav__link' href="">Contact Us</a></li>
-        </ul>
-
-      </nav>
+      <Nav ismain={true}/>
 
       <div className='header__text-box'>
 
         <h1 className='heading-primary'>
-         <span className='heading-primary--main'>Discover the <span className='font-w-800'>future</span> of cleaning</span>
+         <p className='heading-primary--main'>Discover the <span className='font-w-800'>future</span> of cleaning</p>
          <span className='heading-primary--sub'>Revolutionary High-Performance Sweepers</span> 
         </h1>
 
-        <a href="#" className='btn btn--hero'>Let’s clean your mess, together.</a>
+        <a href="#" className='btn btn--hero'><span>Let’s clean your mess, together.</span></a>
       </div>
 
-      <a href='#' className='btn-show-more tranlsateY-3'>
+      <a href='#about' className='btn-show-more tranlsateY-3'>
         Show More
       </a>
     </header>

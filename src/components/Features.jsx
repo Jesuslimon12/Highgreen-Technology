@@ -4,22 +4,12 @@ import Card from './Card'
 import Feature_Item from './Feature-Item'
 import '../styles/Features.css'
 
-export default function () {
-  const [features, setFeatures] = useState([])
-  const [services, setServices] = useState([])
+export default function (props) {
+  const features = props.features
+  const services = props.services
+  const feature_name = props.feature_name
   
 
-
-  useEffect(() => {
-    fetch('json/features.json')
-    .then(response => response.json())
-    .then(datos => {
-      setFeatures(datos.feature_items)
-      setServices(datos.features_services)
-    })
-  }, [])
-
-  
   const ShowServices = useMemo(() => {
     
     let items = services?.map((service) => 
@@ -50,8 +40,8 @@ export default function () {
    *  features__items-box
    * **/
   return (
-    <div className='features'>
-       <Main_title bgtitle={'FEATURES'} title={'High Quality Products'} letter_spacing={'secondary'} font_size={'normal'} />
+    <div className='features' id='features'>
+       <Main_title bgtitle={'FEATURES'} title={feature_name} letter_spacing={'secondary'} font_size={'normal'} />
        <p className='main-text'>Highgreen Technology's purpose is to simplify the cleaning solution search process for customers by providing a hand-selected product line of only the best solutions for their cleaning needs. <br /> Our current catalog is comprised of the newest Haaga line of sweepers. If our word isnt enough to convince you, here are <span className='main-text--active'> 4 features </span>we love about our product selection: </p>
        
        <div className='features__services-box'>
@@ -65,6 +55,8 @@ export default function () {
             ShowFeatures
           }
        </div>
+
+       <a href="#" className='btn btn--hero'>View {feature_name} Products</a>
     </div>
   )
 }

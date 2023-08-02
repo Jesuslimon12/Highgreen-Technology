@@ -3,10 +3,16 @@
     font-style: normal;
     font-size: 2.4rem;
     line-height: 5rem;
-    text-align: center;
     color: #7D8FB3;
-    text-align: justify;
-    max-width: 110rem;
+    text-align: justify;  
+}
+
+
+  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+@media only screen and (max-width: 75em) {
+    .main-text{
+      width: 80%;
+    }
 }
 
 .main-text--active{

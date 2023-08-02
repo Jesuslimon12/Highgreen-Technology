@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import Main_title from './Main-title'
-import IconLighter from '../assets/Lighter.svg'
+import LogoHaaga from '../assets/Haaga-logo.svg'
+import LogoNamco from '../assets/Namco-logo.svg'
 import '../styles/About.css'
 
 export default function About() {
@@ -12,9 +14,13 @@ export default function About() {
       <br /> Say goodbye to messy and unreliable belt-driven sweepers and enjoy outstanding cleaning results with ease of use and minimal maintenance. <u> Whether you're a small business or a factory,
       our sweepers will provide a better cleaning experience for your organization.</u>  </p>
 
-      <figcaption>
-        <img src={IconLighter} alt="" />
-      </figcaption>
+      
+      <ul className='logo-box'>
+          <li className='logo__list'>
+            <Link to="/haaga"><img className='logo__img' src={LogoHaaga} alt="" /></Link>
+            <Link to="/naamco"><img className='logo__img' src={LogoNamco} alt="" /></Link>
+          </li>
+      </ul>
      
       
 

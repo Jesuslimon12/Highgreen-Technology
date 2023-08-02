@@ -2,9 +2,23 @@
     background: #FFFFFF;
     box-shadow: 0 .2rem .5rem rgba(54, 61, 77, 0.05);
     border-radius: .5rem;
-    text-align: center;
-    padding: 5.4rem 0;
     width: 25.5rem;
+    height: 25.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+@media only screen and (max-width: 75em) {
+    .card{
+        height: 51rem;
+        width: 51rem;
+        gap: 6rem;
+   
+    }
 }
 
 .card__icon{
@@ -14,11 +28,30 @@
     margin-bottom: 6.2rem;
 }
 
+  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+  @media only screen and (max-width: 75em) {
+    .card__icon{
+        height: 12rem;
+        width: 12rem;
+    }
+}
+
 .card__title{
     display: inline-block;
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.8rem;
     color: #175156;
-    width: 90%;
+    width: 80%;
+   
+}
+
+  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+  @media only screen and (max-width: 75em) {
+    .card__title{
+        font-size: 3rem;
+        line-height: 3.5rem;
+       
+    
+    }
 }
