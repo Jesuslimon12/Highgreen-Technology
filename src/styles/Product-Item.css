@@ -11,7 +11,7 @@
    
 }
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .product{
         grid-template-columns: 65rem;
@@ -92,6 +92,7 @@
     
 }
 
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .carousel__control--left, .carousel__control--right{
         bottom: 50%;
@@ -111,7 +112,7 @@
     padding: 3rem;
 }
 
-
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .product__details-box{
         gap: 2rem;
@@ -137,6 +138,7 @@
     
 }
 
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .product__description{
         font-size: 1.9rem;
@@ -156,6 +158,7 @@
   
 }
 
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .product__characteristics-box{
         gap: 2rem;
@@ -186,7 +189,7 @@
     color: #175156;
 }
 
-
+ /*Tablet 900px*/
 @media only screen and (max-width: 56.25em) {
     .product__characteristic{
         flex: 0 0 100%;

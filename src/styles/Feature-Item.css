@@ -13,7 +13,7 @@
     gap: 2.1rem;
 }
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .feature__card{
       grid-template-columns: 1fr;
@@ -28,7 +28,7 @@
     margin: 0 auto;
 }
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .feature__card-img{
         max-width: 100%;
@@ -53,7 +53,7 @@
     text-align: center;
 }
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .badge{
         padding: 2rem 4rem;
@@ -90,7 +90,7 @@
   
 }
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .feature__advantages-box{
        flex-direction: column;
@@ -118,7 +118,7 @@
 
 }
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .feature__advantage{
         width: calc(51.5rem - 10rem);

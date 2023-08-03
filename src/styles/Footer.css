@@ -31,6 +31,7 @@
     text-align: left;
 }
 
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .footer .nav{
         gap: 5rem;

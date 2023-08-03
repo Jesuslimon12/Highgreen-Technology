@@ -12,7 +12,7 @@ html{
   -webkit-text-size-adjust: none; /* none for no scaling */
 }
 
- /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+ /*Tablet 900px*/
  @media only screen and (max-width: 56.25em) {
   html{
     font-size: 31.25%; 

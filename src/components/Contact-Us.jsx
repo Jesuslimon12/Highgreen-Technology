@@ -62,7 +62,7 @@ export default function Contact_Us() {
               </div>
             </div>
 
-            <button type='submit' className='btn btn--primary' disabled={state.submitting}>Send</button>
+            <button type='submit' className='btn btn--submit' disabled={state.submitting}>Send</button>
         </form>
       
     </div>

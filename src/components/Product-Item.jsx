@@ -1,7 +1,7 @@
 import React, { useEffect, useLayoutEffect } from 'react'
 import { useState, useMemo, useRef} from "react"
-import IMAGES from '../images/ProductsImgs'
 import IconRightGreen from '../assets/RightIconGreen.svg'
+import IMAGES from '../images/ProductImgs'
 import '../styles/Product-Item.css'
 
 export default function Item_Product(props) {
@@ -50,7 +50,7 @@ export default function Item_Product(props) {
 
   const ShowCharacteritics = useMemo(() => {
     
-    let items =    characteristics?.map((item, id) => 
+    let items = characteristics?.map((item, id) => 
       <span className='product__characteristic' key={id}>{item.characteristic} <span className='text--black'> {item.description} </span> </span>
     )
 
@@ -80,7 +80,7 @@ export default function Item_Product(props) {
   useLayoutEffect(() => {
     
 
-    setimg(galleryimg)
+    setGallery(galleryimg)
     if(screen.width < 900){
  
       setX(325* 1)
@@ -120,14 +120,10 @@ export default function Item_Product(props) {
     }
   }
 
-  function setimg(name){
-    if(name === 'first_product'){
-      setArrayimg((prevState) => [...prevState, ...Object.values(IMAGES.first_product)])
-    }
-    if(name === 'second_product'){
-      setArrayimg((prevState) => [...prevState, ...Object.values(IMAGES.second_product)])
-    }
-  
+  function setGallery(name){
+    let [element] = IMAGES.filter((elements) => elements.name === name)
+    let {gallery} = element
+    setArrayimg((prevState) => [...prevState, ...gallery])  
   }
 
   /**

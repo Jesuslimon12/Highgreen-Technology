@@ -32,7 +32,7 @@
 
 }
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
   .btn,
   .btn:link,
@@ -50,15 +50,16 @@
   }
 }
 
-.btn--primary{
+.btn--submit{
   position: relative;
   background-color: #8ACF3F;
   padding: 2rem 17rem;
   align-self: center;
 }
 
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
-  .btn--primary{
+  .btn--submit{
     width: 100%;
   }
 }
@@ -106,7 +107,7 @@
     color: #175156;
 }
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+   /*Tablet 900px*/
   @media only screen and (max-width: 56.25em) {
     .btn-show-more:link,
     .btn-show-more:visited{
@@ -127,11 +128,11 @@
 
 .btn-view:link,
 .btn-view:visited{
-  display: flex !important;
+  display: flex;
   align-items: center;
   justify-content:space-between;
   width: 12rem;
-  border-radius: unset !important;
+  border-radius: unset;
 } 
 
 .btn-view--title{
@@ -147,12 +148,11 @@
   height: 1.518rem;
 }
   
- /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
   .btn-view:link,
   .btn-view:visited{
    width: 18rem;
-
   }
 
   .btn-view--title{
@@ -162,7 +162,6 @@
   .btn-view--icon{
     width: 2rem;
     height: 2rem;
-  
   }
 }
     

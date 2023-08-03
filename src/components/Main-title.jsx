@@ -17,7 +17,7 @@ export default function Main_title(props) {
   return (
     <div className='main__title-box'>
         <h1 className={'main__title main__title--bg ' + letter_spacing}> {bgtitle} </h1>
-        <h1 className={'main__title main__title--primary ' + font_size}> {title} </h1>
+        <h1 className={'main__title main__title--head ' + font_size}> {title} </h1>
     </div>
   )
 }

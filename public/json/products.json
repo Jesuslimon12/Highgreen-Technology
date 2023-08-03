@@ -20,7 +20,7 @@
              
             ],
             "Link":"https://haagastore.com/collections/commercial-sweepers/products/haaga-477-sweeper",
-            "gallery":"first_product"
+            "gallery":"test"
         },
         {
             "id":"2",
@@ -42,7 +42,7 @@
              
             ],
             "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-677-isweep-sweeper",
-            "gallery":"first_product"
+            "gallery":"test"
         },
         {
             "id":"3",
@@ -64,7 +64,7 @@
              
             ],
             "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-677-isweep-sweeper",
-            "gallery":"first_product"
+            "gallery":"test"
         },
         {
             "id":"4",
@@ -86,7 +86,7 @@
              
             ],
             "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-697-isweep-sweeper",
-            "gallery":"first_product"
+            "gallery":"test"
         }
     ],
 
@@ -108,7 +108,7 @@
              
             ],
             "Link":"https://haagastore.com/collections/hard-surface-cleaners/products/floor-wash-1400b-cordless-tile-grout-hard-surface-cleaner",
-            "gallery":"first_product"
+            "gallery":"test"
 
         }
     ],
@@ -130,18 +130,18 @@
              
             ],
             "Link":"HURRICONE Cordless Floor Dryer HSC6000 – HaagaStore.com",
-            "gallery":"second_product"
+            "gallery":"test"
 
         }
     ],
     "scrubbers":[
         {
             "id":"1",
-            "group":"Floorwash 5000 Multi-Surface Floor Scrubber",
+            "group":"Floor Scrubber",
             "model":"Floorwash 5000 Multi-Surface Floor Scrubber",
             "brand":"Namco Manufacturing",
-            "description":"The Floorwash 1400B battery with rechargeable lithium-ion technology guarantees 1 hour of continuous use 5400 sq. ft. of cleaning with the option of interchanging the battery for continued use.",
-            "designed":"To clean both hard floor surfaces and carpets with a single pass, making it an efficient and versatile cleaning solution for any environment.",
+            "description":"Constructed from high-quality materials, the Floorwash 5000 is built to withstand heavy use in commercial and industrial settings, ensuring long-lasting performance and reliability.",
+            "designed":"The Namco Floorwash 5000 Multi-Surface Floor Scrubber is designed to clean both hard floor surfaces and carpets with a single pass, making it an efficient and versatile cleaning solution for any environment.",
             "characteristics":[
         
                 {"characteristic":"Weight", "description":"24 lbs" },
@@ -152,7 +152,27 @@
              
             ],
             "Link":"https://namcomfg.com/collections/facilities-equipment/products/namco-floorwash-5000",
-            "gallery":"second_product"
+            "gallery":"floorwash_g1"
+
+        },
+        {
+            "id":"2",
+            "group":"Floor Scrubber",
+            "model":"Floorwash 1000 Multi-Surface Floor Scrubber",
+            "brand":"Namco Manufacturing",
+            "description":"The Namco Floorwash 1000 Multi-Surface Floor Scrubber can effectively clean up to 2,150 square feet per hour, making it an ideal choice for large commercial or industrial environments.",
+            "designed":"The Namco Floorwash 1000 Multi-Surface Floor Scrubber is designed to clean both hard floor surfaces and carpets with a single pass, making it an efficient and versatile cleaning solution for any environment.",
+            "characteristics":[
+        
+                {"characteristic":"Weight", "description":"24 lbs" },
+                {"characteristic":"Cleaning","description":"9 inches" },
+                {"characteristic":"Waste Tank", "description":"1 gal." }, 
+                {"characteristic":"System", "description":"Cordless" }, 
+                {"characteristic":"Batery", "description":"1 Hour" }
+             
+            ],
+            "Link":"https://namcomfg.com/collections/facilities-equipment/products/namco-floorwash-1000",
+            "gallery":"floorwash_g2"
 
         }
     ]

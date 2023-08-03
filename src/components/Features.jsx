@@ -2,6 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react'
 import Main_title from './Main-title'
 import Card from './Card'
 import Feature_Item from './Feature-Item'
+import IMAGES from '../images/FeatureImgs'
 import '../styles/Features.css'
 
 export default function (props) {
@@ -9,6 +10,9 @@ export default function (props) {
   const services = props.services
   const feature_name = props.feature_name
   
+  function findimg(name){
+    return Object.entries(IMAGES).find(([key]) => key === name)
+  }
 
   const ShowServices = useMemo(() => {
     
@@ -26,13 +30,15 @@ export default function (props) {
     
     let items = features?.map((features) => 
       
-    <Feature_Item key={features.id} advantages={features.advantage} img={features.img} feature_num={features.feature_number} badge_title={features.badge_title} title={features.title} description={features.description} letter_spacing={features.letter_spacing} />
+    <Feature_Item key={features.id} advantages={features.advantage} img={findimg(features.img)} feature_num={features.feature_number} badge_title={features.badge_title} title={features.title} description={features.description} letter_spacing={features.letter_spacing} />
   
     )
 
     return items
 
   },[features])
+
+
  
   /**
    * features
@@ -56,7 +62,7 @@ export default function (props) {
           }
        </div>
 
-       <a href="#" className='btn btn--hero'>View {feature_name} Products</a>
+       <a href="#" className='btn'>View {feature_name} Products</a>
     </div>
   )
 }

@@ -25,7 +25,7 @@
     gap: 3rem;
 
 }
-
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .form__row{
         flex-direction: column;
@@ -84,7 +84,7 @@
     display: none;
     height: 15vh; 
 }
-
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     
     .form__input--msg-desktop{
@@ -103,7 +103,7 @@
     }
 }
 
-
+ /*Tablet 900px*/
 @media only screen and (max-width: 56.25em) {
     .form__input{
         padding: 3rem 7rem 3rem 4rem;

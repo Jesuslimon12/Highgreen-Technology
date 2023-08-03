@@ -8,7 +8,7 @@
 }
 
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .main-text{
       width: 80%;

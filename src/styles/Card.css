@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+/*breakpoint 1200px*/
 @media only screen and (max-width: 75em) {
     .card{
         height: 51rem;
@@ -28,7 +28,7 @@
     margin-bottom: 6.2rem;
 }
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+  /*breakpoint 1200px*/
   @media only screen and (max-width: 75em) {
     .card__icon{
         height: 12rem;
@@ -46,7 +46,7 @@
    
 }
 
-  /*1 rem = 5px, 5/16 = 31.25%*/  /*Smart-Phone 480px*/
+  /*breakpoint 1200px*/
   @media only screen and (max-width: 75em) {
     .card__title{
         font-size: 3rem;
