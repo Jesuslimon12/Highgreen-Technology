@@ -1,4 +1,6 @@
 {
+  "hagga_description":"Highgreen Technology's purpose is to simplify the cleaning solution search process for customers by providing a hand-selected product line of the best solutions for their cleaning needs. Our current catalog includes the newest Haaga line of sweepers. If our word alone isn't enough to convince you, here are <span class='main-text--active'> 4 features </span> we love about our product selection:",
+  "namco_description": "Highgreen Technology's purpose is to simplify the cleaning solution search process for customers by offering a hand-selected product line of the best solutions for their cleaning needs. Our current catalog showcases our favorite offerings from Namco's line of professional cleaning equipment. If our word alone isn't enough to persuade you, here are <span class='main-text--active'> 4 features </span> we love about our product selection from Namco:",  
   "feature_haaga": [
         {    
             "id":"1",
@@ -54,10 +56,40 @@
             "img":"haaga1",
             "badge_title":"Turbo system",
             "title":"Advanced Turbo Sweeping System",
-            "description":"The Turbo sweeping system is a patented feature that allows for efficient sweeping with just one move. The system utilizes its front two brushes that rotate in opposite directions, effectively grabbing debris directly in front of the sweeper. In addition, a brush roller on the bottom of the system picks up fine particles. This innovative feature ensures that your sweeping is completed quickly and thoroughly, with minimal effort required on your part.",
+            "description":"Dual Surface Cleaning - The Namco Floorwash 5000 Multi-Surface Floor Scrubber is designed to clean both hard floor surfaces and carpets with a single pass, making it an efficient and versatile cleaning solution for any environment.",
             "advantage":["Higher cleaning efficiency","Faster Cleaning","Reduced Effort Required"],
             "letter_spacing":"tertiary"
 
+        },
+        {    
+            "id":"2",
+            "feature_number":"Two",
+            "img":"haaga1",
+            "badge_title":"Turbo system",
+            "title":"Advanced Turbo Sweeping System",
+            "description":"High-Speed Rotating Brushes - With brushes that rotate at a speed of 780 RPM, the Floorwash 5000 effectively agitates dirt and grime, allowing it to be lifted from the surface of the floor or carpet for a more thorough clean.",
+            "advantage":["780 RPM","Bye to sticky mess","Durable Construction"],
+            "letter_spacing":"tertiary"
+        },
+        {    
+            "id":"3",
+            "feature_number":"Three",
+            "img":"haaga1",
+            "badge_title":"Turbo system",
+            "title":"Advanced Turbo Sweeping System",
+            "description":"High Cleaning Capacity - The Namco Floorwash 5000 Multi-Surface Floor Scrubber can effectively clean up to 4,305 square feet per hour, making it an ideal choice for large commercial or industrial environments.",
+            "advantage":["Excels in Large Areas","35 ft Power Cord","Large Solution Tank"],
+            "letter_spacing":"primary"
+        },
+        {    
+            "id":"4",
+            "feature_number":"Four",
+            "img":"haaga1",
+            "badge_title":"Turbo system",
+            "title":"Advanced Turbo Sweeping System",
+            "description":"Low Noise Level - The Floorwash 5000 operates at a low noise level, making it a suitable cleaning solution for noise-sensitive environments such as hospitals, schools, and offices.",
+            "advantage":["Quiet Machine, Loud Results"],
+            "letter_spacing":"primary"
         }
     
     ],

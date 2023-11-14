@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react'
 import Main_title from './Main-title'
-import Product_Item from './Product-Item'
+import Item_Product from './Product-Item'
 import '../styles/Products.css'
 
 
@@ -25,7 +25,7 @@ export default function Products() {
     
     let items = sweepers?.map((swepper) => 
       
-      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics}  gallery={swepper.gallery}/>
+      <Item_Product key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics}  gallery={swepper.gallery}/>
   
     )
 
@@ -37,7 +37,7 @@ export default function Products() {
     
     let items = floorwash?.map((swepper) => 
       
-      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics}  gallery={swepper.gallery}/>
+      <Item_Product key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics}  gallery={swepper.gallery}/>
   
     )
 
@@ -49,7 +49,7 @@ export default function Products() {
     
     let items = floordryer?.map((swepper) => 
       
-      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} gallery={swepper.gallery} />
+      <Item_Product key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} gallery={swepper.gallery} />
   
     )
 
@@ -57,17 +57,17 @@ export default function Products() {
 
   },[floordryer])
 
-  const ShowScrubbers = useMemo(() => {
+  //const ShowScrubbers = useMemo(() => {
     
-    let items = scrubbers?.map((swepper) => 
+    //let items = scrubbers?.map((swepper) => 
       
-      <Product_Item key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} gallery={swepper.gallery} />
+      //<Item_Product key={swepper.id} model={swepper.model} description={swepper.description} characteristics={swepper.characteristics} gallery={swepper.gallery} />
   
-    )
+    //)
 
-    return items
+    //return items
 
-  },[scrubbers])
+  //},[scrubbers])
 
   
 
@@ -82,8 +82,7 @@ export default function Products() {
   return (
     <div id='products' className='products'>
       <Main_title bgtitle={'PRODUCTS'} title={'PRODUCT CATALOG'} letter_spacing={'secondary'} font_size={'normal'} />
-      <p className='main-text'>Our product category provides a hassle-free experience with carefully curated products that just work. Our team of experts, with over a decade of industry experience, ensures that each product offers more benefits than troubles. We've included everything we wished we had known from the beginning, from easy-to-use design to our commitment to quality sustainability and efficient execution.
-        Experience the difference with our simple and efficient products that exceed expectations. Choose us for a hassle-free solution!</p>
+      <p className='main-text'>Discover Excellence in Every Product. Our handpicked catalog showcases a range of sweepers, cleaners, and scrubbers, each handpicked for its superior performance and eco-conscious build. We've included everything we wished we had known from the beginning, from easy-to-use design to our commitment to quality sustainability and efficient execution. Dive into our selections from leading brands Haaga and Namco—where innovation meets the art of cleanliness.</p>
       
       
       <div className='products__items-box'>
@@ -102,10 +101,10 @@ export default function Products() {
         {ShowFloordryer}
       </div>
 
-      <div className='products__items-box'>
-        <h1 className='product__type'>scrubbers</h1>
-        {ShowScrubbers}
-      </div>
+      {/*<div className='products__items-box'>
+            <h1 className='product__type'>scrubbers</h1>
+            {ShowScrubbers}
+      </div> */}
 
 
     </div>

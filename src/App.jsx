@@ -1,5 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop"
+
 import Main from './components/Main'
 import Haaga from './components/Haaga'
 import Naamco from './components/Naamco'
@@ -13,20 +14,12 @@ import './styles/Header.css'
 
 function App(){
 
-  /**CLASSES
-  main
-  main__sections
-  main__footer-section
-  
-  
-  
-  
-  **/
   return <main className='main'>
     
 
       <Router>
         <ScrollToTop />
+       
         <Routes>
             <Route path="/" element={ <Main /> } />
             <Route path="/haaga" element={ <Haaga /> } />

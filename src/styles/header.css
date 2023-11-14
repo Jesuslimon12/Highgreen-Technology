@@ -50,62 +50,7 @@
   
   }
   
-  
-  .nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    margin-top: 4.4rem;  
-   
-  }
 
-  .nav-secondary{
-    width: 100%;
-    color: #175156;
-    
-  }
-
-  /*breakpoint 1200px*/
-  @media only screen and (max-width: 75em){
-    .nav{
-      justify-content: space-between;
-    }
-  
-  }
-
-  .nav__logo{
-    width: 24.6rem;
-    height: 6.8rem;
-  }
-
-  /*breakpoint 1200px*/
-  @media only screen and (max-width: 75em) {
-    .nav__logo{
-      width: 28rem;
-      height: 8rem;
-    }
-  }
-
-  .nav__lists-box{
-    display: flex;
-    align-items: center;
-    gap: 6rem;
-  }
-
-  /*breakpoint 1200px*/
-  @media only screen and (max-width: 75em) {
-    .nav__list-desktop{
-      display: none;
-    }
-  }
-  
-  .nav__list{
-    font-weight: 600;
-    font-size: 1.6rem;
-    line-height: 1.6rem;
-  }
-  
   .header__text-box{
     display: flex;
     flex-direction: column;
@@ -158,9 +103,6 @@
     font-size: 3.2rem;
     line-height: 4rem;
     text-align: center;
-    
-
-    
   }
 
    /*breakpoint 1200px*/
@@ -171,23 +113,3 @@
     }
   }
 
-
-  .nav__mobile-button{
-    display: none;
-  }
-
-  /*breakpoint 1200px*/
-  @media only screen and (max-width: 75em) {
-    .nav__mobile-button{
-   
-      display: block;
-      border: none;
-      outline: none;
-      background-color: transparent;
-    }
-
-    .nav__mobile-icon{
-      height: 6rem;
-      width: 6rem;
-    }
-  }

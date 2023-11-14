@@ -9,6 +9,7 @@ export default function (props) {
   const features = props.features
   const services = props.services
   const feature_name = props.feature_name
+  const description = props.description
   
   function findimg(name){
     return Object.entries(IMAGES).find(([key]) => key === name)
@@ -48,7 +49,8 @@ export default function (props) {
   return (
     <div className='features' id='features'>
        <Main_title bgtitle={'FEATURES'} title={feature_name} letter_spacing={'secondary'} font_size={'normal'} />
-       <p className='main-text'>Highgreen Technology's purpose is to simplify the cleaning solution search process for customers by providing a hand-selected product line of only the best solutions for their cleaning needs. <br /> Our current catalog is comprised of the newest Haaga line of sweepers. If our word isnt enough to convince you, here are <span className='main-text--active'> 4 features </span>we love about our product selection: </p>
+       <p className='main-text' dangerouslySetInnerHTML={{__html: description}}></p>
+       
        
        <div className='features__services-box'>
           {

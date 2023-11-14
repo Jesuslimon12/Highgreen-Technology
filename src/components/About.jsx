@@ -10,9 +10,7 @@ export default function About() {
   return (
     <div className='about' id='about'>
       <Main_title bgtitle={'WHO WE ARE'} title={'Highgreen Technology'} letter_spacing={'primary'} font_size='normal'/>
-      <p className='main-text'>At Highgreen Technology, we are revolutionizing the cleaning industry with our high-performance compact sweepers powered by <span className='main-text--active'>Haaga's patented belt-less disk brush technology.</span> 
-      <br /> Say goodbye to messy and unreliable belt-driven sweepers and enjoy outstanding cleaning results with ease of use and minimal maintenance. <u> Whether you're a small business or a factory,
-      our sweepers will provide a better cleaning experience for your organization.</u>  </p>
+      <p className='main-text'>At Highgreen Technology, we're not just a technology company; we're the bridge between impeccable cleaning and enterprise demands. Our selection is more than just products—it's a promise. A promise of performance, sustainability, and unmatched quality. We curate only the best from renowned vendors like Haaga and Namco. If you're an enterprise or a business owner seeking unparalleled cleaning solutions, you're in the right place.</p>
 
       
       <ul className='logo-box'>

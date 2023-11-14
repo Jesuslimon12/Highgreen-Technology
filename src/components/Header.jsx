@@ -32,7 +32,7 @@ export default function Header() {
 
         <h1 className='heading-primary'>
          <p className='heading-primary--main'>Discover the <span className='font-w-800'>future</span> of cleaning</p>
-         <span className='heading-primary--sub'>Revolutionary High-Performance Sweepers</span> 
+         <span className='heading-primary--sub'>Discover the future of cleaning</span> 
         </h1>
 
         <a href="#" className='btn'><span>Let’s clean your mess, together.</span></a>

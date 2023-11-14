@@ -6,28 +6,28 @@
             "model":"Haaga 477",
             "brand":"Haaga",
             "description":"HAAGA 477 SWEEPER sweep twice with one move. The two front brushes rotate in opposite directions grabbing the big debris directly in front of the sweeper while the brush roller on the bottom picks up all the small particles.",
-            "designed":"Indoor / outdoor wide area surface cleaning of warehouse and factory flooring, parking lot and sidewalk surfaces, asphalt, concrete and all natural stone hard surfaces.",
+            "designed":"Designed for indoor / outdoor wide area surface cleaning of warehouse and factory flooring, parking lot and sidewalk surfaces, asphalt, concrete and all natural stone hard surfaces.",
             "characteristics":[
         
                 {"characteristic":"Weight", "description":"38 lbs" },
                 {"characteristic":"Cleaning","description":"31 inches" },
                 {"characteristic":"Brushes", "description":"Triple brush turbo sweeper" }, 
                 {"characteristic":"Waste Container", "description":"13.2 gallon" }, 
-                {"characteristic":"System", "description":"Belt-free system" }, 
+                {"characteristic":"System", "description":"Belt-free" }, 
                 {"characteristic":"Machine Warranty", "description":"2 yr overall warranty" }, 
                 {"characteristic":"Brushes Warranty", "description":"4 yr warranty on all brushes against wear" }, 
                 {"characteristic":"Baterry", "description":"N/A" }
              
             ],
             "Link":"https://haagastore.com/collections/commercial-sweepers/products/haaga-477-sweeper",
-            "gallery":"test"
+            "gallery":"haaga_477"
         },
         {
             "id":"2",
             "group":"Manual Push Sweeper",
             "model":"Haaga 497",
             "brand":"Haaga",
-            "description":"HAAGA 497 SWEEPER is used by hotels, motels, government, maintenance departments, recreational facilities, movie theaters and services stations all over the world, Since 1969",
+            "description":"Is used by hotels, motels, government, maintenance departments, recreational facilities, movie theaters and services stations all over the world, Since 1969",
             "designed":"Indoor / outdoor wide area surface cleaning of warehouse and factory flooring, parking lot and sidewalk surfaces, asphalt, concrete and all natural stone hard surfaces.",
             "characteristics":[
         
@@ -35,21 +35,21 @@
                 {"characteristic":"Cleaning","description":"38 inches" },
                 {"characteristic":"Brushes", "description":"Triple brush turbo sweeper" }, 
                 {"characteristic":"Waste Container", "description":"13.2 gallon" }, 
-                {"characteristic":"System", "description":"Belt-free system" }, 
+                {"characteristic":"System", "description":"Belt-free" }, 
                 {"characteristic":"Machine Warranty", "description":"2 yr overall warranty" }, 
                 {"characteristic":"Brushes Warranty", "description":"4 yr warranty on all brushes against wear" }, 
                 {"characteristic":"Baterry", "description":"N/A" }
              
             ],
             "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-677-isweep-sweeper",
-            "gallery":"test"
+            "gallery":"haaga_497"
         },
         {
             "id":"3",
             "group":"Battery Powered Sweeper",
             "model":"Hagga 677",
             "brand":"Haaga",
-            "description":"HAAGA 677 SWEEPER easily sweeps fine dust, course dirt, sand, leaves, sticks, bottles, broken glass, wrappers, food, anything that can fit thru a 10 X 4 opening big or small debris.",
+            "description":"Easily sweeps fine dust, course dirt, sand, leaves, sticks, bottles, broken glass, wrappers, food, anything that can fit thru a 10 X 4 opening big or small debris.",
             "designed":"Indoor / outdoor wide area surface cleaning of warehouse and factory flooring, parking lot and sidewalk surfaces, asphalt, concrete and all natural stone hard surfaces.",
             "characteristics":[
         
@@ -64,7 +64,7 @@
              
             ],
             "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-677-isweep-sweeper",
-            "gallery":"test"
+            "gallery":"haaga_677"
         },
         {
             "id":"4",
@@ -86,7 +86,7 @@
              
             ],
             "Link":"https://haagastore.com/collections/haaga-677-697-battery-powered-sweepers/products/haaga-697-isweep-sweeper",
-            "gallery":"test"
+            "gallery":"haaga_497"
         }
     ],
 
@@ -94,21 +94,72 @@
         {
             "id":"1",
             "group":"Hard Surface Cleaner",
+            "model":"FLOORWASH 1000B",
+            "brand":"FLOORWASH",
+            "description":"The Namco Floorwash 1000 Multi-Surface Floor Scrubber is designed to clean both hard floor surfaces and carpets with a single pass, making it an efficient and versatile cleaning solution for any environment.",
+            "designed":"cleans grouted tile, concrete, marble, profiled ceramics, vinyl, rubberized, wood floors inside and outside. The Floorwash 1400B is Ideal for restaurants, hotels, bars, schools, offices, shops, convenience stores, medical centers as well as home use.",
+            "characteristics":[
+        
+                {"characteristic":"Weight", "description":"31 lbs" },
+                {"characteristic":"Cleaning","description":"9 inches" },
+                {"characteristic":"Brushes","description":"Bristle brushes counter" },
+                {"characteristic":"Waste Container", "description":"1 gallon" }, 
+                {"characteristic":"System", "description":"35-foot power cord" }, 
+                {"characteristic":"Warranty", "description":"1 yr warranty" }, 
+                {"characteristic":"Brushes Warranty", "description":"N/A" }, 
+                {"characteristic":"Batery", "description":"Corded" }
+             
+            ],
+            "Link":"https://haagastore.com/collections/hard-surface-cleaners/products/floor-wash-1400b-cordless-tile-grout-hard-surface-cleaner",
+            "gallery":"floorwash_1000b"
+
+        },
+
+        {
+            "id":"2",
+            "group":"Hard Surface Cleaner",
             "model":"FLOORWASH 1400B",
             "brand":"FLOORWASH",
-            "description":"The Floorwash 1400B battery with rechargeable lithium-ion technology guarantees 1 hour of continuous use 5400 sq. ft. of cleaning with the option of interchanging the battery for continued use.",
+            "description":"The Floorwash 1400B Cordless Hard Surface Cleaner cleans grouted tile, concrete, marble, profiled ceramics, vinyl, rubberized, wood floors inside and outside.",
             "designed":"cleans grouted tile, concrete, marble, profiled ceramics, vinyl, rubberized, wood floors inside and outside. The Floorwash 1400B is Ideal for restaurants, hotels, bars, schools, offices, shops, convenience stores, medical centers as well as home use.",
             "characteristics":[
         
                 {"characteristic":"Weight", "description":"24 lbs" },
                 {"characteristic":"Cleaning","description":"14 inches" },
-                {"characteristic":"Waste Tank", "description":"0.5 gal." }, 
+                {"characteristic":"Brushes","description":"N/A" },
+                {"characteristic":"Waste Container", "description":"0.5 gallon" }, 
                 {"characteristic":"System", "description":"Cordless" }, 
+                {"characteristic":"Warranty", "description":"1 yr warranty" }, 
+                {"characteristic":"Brushes Warranty", "description":"N/A" }, 
                 {"characteristic":"Batery", "description":"1 Hour" }
              
             ],
             "Link":"https://haagastore.com/collections/hard-surface-cleaners/products/floor-wash-1400b-cordless-tile-grout-hard-surface-cleaner",
-            "gallery":"test"
+            "gallery":"floorwash_1400b"
+
+        },
+
+        {
+            "id":"3",
+            "group":"Hard Surface Cleaner",
+            "model":"FLOORWASH 5000",
+            "brand":"FLOORWASH",
+            "description":"Namco Floorwash 5000 cleans 30 different floor types. Cleans carpets, grouted tile, concrete, hardwood, marble, profiled ceramics, vinyl, rubberized floors, Pirelli, escalators and more.",
+            "designed":"cleans grouted tile, concrete, marble, profiled ceramics, vinyl, rubberized, wood floors inside and outside. The Floorwash 1400B is Ideal for restaurants, hotels, bars, schools, offices, shops, convenience stores, medical centers as well as home use.",
+            "characteristics":[
+        
+                {"characteristic":"Weight", "description":"33 lbs" },
+                {"characteristic":"Cleaning","description":"14 inches" },
+                {"characteristic":"Brushes","description":"N/A" },
+                {"characteristic":"Waste Container", "description":"0.5 gallon" }, 
+                {"characteristic":"System", "description":"Cordless" }, 
+                {"characteristic":"Warranty", "description":"1 yr warranty" }, 
+                {"characteristic":"Brushes Warranty", "description":"N/A" }, 
+                {"characteristic":"Batery", "description":"1 Hour" }
+             
+            ],
+            "Link":"https://haagastore.com/collections/hard-surface-cleaners/products/floor-wash-1400b-cordless-tile-grout-hard-surface-cleaner",
+            "gallery":"floorwash_5000"
 
         }
     ],
@@ -122,58 +173,22 @@
             "description":"Used all over the world in hotels, restaurants, government buildings, anywhere there is a slip and fall hazard.",
             "designed":"used all over the world in hotels, restaurants, government buildings, anywhere there is a slip and fall hazard.",
             "characteristics":[
-        
+                    
                 {"characteristic":"Weight", "description":"39 lbs" },
-                {"characteristic":"System","description":"Cordless" },
-                {"characteristic":"Machine Warranty", "description":"1 Year warranty" }, 
-                {"characteristic":"Baterry", "description":"12 hours" }
+                {"characteristic":"Cleaning","description":"15 inches" },
+                {"characteristic":"Brushes","description":"N/A" },
+                {"characteristic":"Waste Container", "description":"N/A" }, 
+                {"characteristic":"System", "description":"Cordless" }, 
+                {"characteristic":"Warranty", "description":"1 yr warranty" }, 
+                {"characteristic":"Brushes Warranty", "description":"N/A" }, 
+                {"characteristic":"Batery", "description":"12 Hour" }
              
             ],
             "Link":"HURRICONE Cordless Floor Dryer HSC6000 – HaagaStore.com",
-            "gallery":"test"
-
-        }
-    ],
-    "scrubbers":[
-        {
-            "id":"1",
-            "group":"Floor Scrubber",
-            "model":"Floorwash 5000 Multi-Surface Floor Scrubber",
-            "brand":"Namco Manufacturing",
-            "description":"Constructed from high-quality materials, the Floorwash 5000 is built to withstand heavy use in commercial and industrial settings, ensuring long-lasting performance and reliability.",
-            "designed":"The Namco Floorwash 5000 Multi-Surface Floor Scrubber is designed to clean both hard floor surfaces and carpets with a single pass, making it an efficient and versatile cleaning solution for any environment.",
-            "characteristics":[
-        
-                {"characteristic":"Weight", "description":"24 lbs" },
-                {"characteristic":"Cleaning","description":"14 inches" },
-                {"characteristic":"Waste Tank", "description":"1 gal." }, 
-                {"characteristic":"System", "description":"Cordless" }, 
-                {"characteristic":"Batery", "description":"1 Hour" }
-             
-            ],
-            "Link":"https://namcomfg.com/collections/facilities-equipment/products/namco-floorwash-5000",
-            "gallery":"floorwash_g1"
-
-        },
-        {
-            "id":"2",
-            "group":"Floor Scrubber",
-            "model":"Floorwash 1000 Multi-Surface Floor Scrubber",
-            "brand":"Namco Manufacturing",
-            "description":"The Namco Floorwash 1000 Multi-Surface Floor Scrubber can effectively clean up to 2,150 square feet per hour, making it an ideal choice for large commercial or industrial environments.",
-            "designed":"The Namco Floorwash 1000 Multi-Surface Floor Scrubber is designed to clean both hard floor surfaces and carpets with a single pass, making it an efficient and versatile cleaning solution for any environment.",
-            "characteristics":[
-        
-                {"characteristic":"Weight", "description":"24 lbs" },
-                {"characteristic":"Cleaning","description":"9 inches" },
-                {"characteristic":"Waste Tank", "description":"1 gal." }, 
-                {"characteristic":"System", "description":"Cordless" }, 
-                {"characteristic":"Batery", "description":"1 Hour" }
-             
-            ],
-            "Link":"https://namcomfg.com/collections/facilities-equipment/products/namco-floorwash-1000",
-            "gallery":"floorwash_g2"
+            "gallery":"hsc_6000"
 
         }
     ]
+   
 }
+

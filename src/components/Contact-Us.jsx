@@ -16,9 +16,13 @@ export default function Contact_Us() {
   return (
     <div className='contact-us' id='contact'>
       <Main_title bgtitle={'IN TOUCH'} title={'Get It Touch Now'} letter_spacing={'primary'} font_size={'normal'} />
-      <p className='main-text'>In order to better assist you, please provide us with as much information as possible about your inquiry. This will help us to provide you with a prompt and accurate response. We appreciate your interest in our products/services and look forward to hearing from you! </p>
+        <p className='main-text'>
+          Ready to elevate your cleaning game? Let's connect. Sign up and we'll guide you through the future of sustainable, industrial-grade cleaning solutions. Step into a cleaner, greener tomorrow with Highgreen Technology.
+          <br />
+          <br />
+          * In order to better assist you, please provide us with as much information as possible about your inquiry. This will help us to provide you with a prompt and accurate response. We appreciate your interest in our products/services and look forward to hearing from you!
+        </p>
 
-    
         <form onSubmit={handleSubmit} className='form' ref={form_contact}>
             <div className="form__row">
                 <div className="form__group">
@@ -28,28 +32,31 @@ export default function Contact_Us() {
                     <img src={UserIcon} alt="User icon" className='form__icon'/>
                 </div>
 
-                <div className="form__group">
-                  
-                    <input type="text" className="form__input" id="last_name" name="last_name" placeholder="Last Name" required/>
-                    <label htmlFor="last_name" className="form__label">Last Name</label>
-                    <img src={UserIcon} alt="User icon" className='form__icon'/>
-                </div>
-            </div>
-           
-            <div className="form__row">
+                
                 <div className="form__group">
                     
                     <input type="email" className="form__input" id="email" name="email" placeholder="Email Address" required/>
                     <label htmlFor="email" className="form__label">Email Address</label>
                     <img src={EmailIcon} alt="User icon" className='form__icon'/>
                 </div>
-
+            </div>
+           
+            <div className="form__row">
                 <div className="form__group">
                   
-                  <input type="text" className="form__input" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+                  <input type="text" className="form__input" id="phone" name="phone" placeholder="(956) 123 4567" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
                   <label htmlFor="phone" className="form__label">Phone Number</label>
                   <img src={PhoneIcon} alt="User icon" className='form__icon'/>
                 </div>
+                
+                <div className="form__group">
+                    
+                    <input type="text" className="form__input" id="last_name" name="last_name" placeholder="Bussiness Name" required/>
+                    <label htmlFor="last_name" className="form__label">Company</label>
+                    <img src={UserIcon} alt="User icon" className='form__icon'/>
+                </div>
+
+                
             </div>
 
             <div className="form__row">
