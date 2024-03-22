@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from './Nav'
 import Highgreen from '../assets/Logo_Highgreen.svg'
 import HamburgerIcon from '../assets/icon-hamburger.svg'
-import '../styles/Header.css'
+import '../styles/header.css'
 
 export default function Header() {
   /**

@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react'
 import Features from './Features'
 import Nav from './Nav'
 
-import '../styles/Header.css'
+import '../styles/header.css'
 
 export default function Naamco() {
     const [features, setFeatures] = useState([])
