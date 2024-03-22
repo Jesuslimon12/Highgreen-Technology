@@ -1,6 +1,6 @@
 import React, { useEffect, useLayoutEffect, useMemo, useState, useRef } from 'react'
 import IMAGES from '../images/ProductImgs'
-import '../styles/carousel.css'
+import '../styles/crsl.css'
 
 export default function Carousel(props) {
     const gallery_name = props.gallery_name
