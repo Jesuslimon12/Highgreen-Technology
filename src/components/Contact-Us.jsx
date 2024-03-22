@@ -1,6 +1,6 @@
 import React,{useRef} from 'react'
 import { useForm, ValidationError } from '@formspree/react';
-import '../styles/contact-us.css'
+import '../styles/contact.css'
 import UserIcon from '../assets/user.svg'
 import EmailIcon from '../assets/icon-email.svg'
 import PhoneIcon from '../assets/icon-phone.svg'
