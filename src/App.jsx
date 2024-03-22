@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 import './index.css'
 import './styles/Buttons.css'
 import './styles/Typography.css'
-//import './styles/Header.css'
+import './styles/Header.css'
 
 
 

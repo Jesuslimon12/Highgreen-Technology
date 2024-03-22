@@ -63,7 +63,7 @@ export default function Carousel(props) {
     }, [Positionimg, Arrayimg])
 
     useLayoutEffect(() => {
-        console.log(gallery_name)
+        //console.log(gallery_name)
         if(screen.width < 900){
           setX(325* 1)
           setDimensions(325);
