@@ -6,8 +6,8 @@ import Haaga from './components/Haaga'
 import Naamco from './components/Naamco'
 import Footer from './components/Footer'
 import './index.css'
-import './styles/Buttons.css'
-import './styles/Typography.css'
+import './styles/buttons.css'
+import './styles/typography.css'
 import './styles/header.css'
 
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react'
 import Main_title from './Main-title'
 import Item_Product from './Product-Item'
-import '../styles/Products.css'
+import '../styles/products.css'
 
 
 export default function Products() {

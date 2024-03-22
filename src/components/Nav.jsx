@@ -3,7 +3,7 @@ import { HashLink  } from "react-router-hash-link";
 import Logo from '../assets/Logo_Highgreen.svg'
 import Logo_2 from '../assets/Logo_Highgreen-2.svg'
 import HamburgerIcon from '../assets/icon-hamburger.svg'
-import '../styles/Nav.css'
+import '../styles/nav.css'
 
 export default function Nav(props) {
   const isnavmain = props.ismain 

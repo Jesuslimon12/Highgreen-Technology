@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import '../styles/Card.css'
+import '../styles/card.css'
 import Turbosystem_Icon from '../assets/icon-turbosystem.svg'
 import Easytouse_Icon from '../assets/icon-easytouse.svg'
 import Lessmaintenance_Icon from '../assets/icon-lessmaintenance.svg'

@@ -3,7 +3,7 @@ import Main_title from './Main-title'
 import Card from './Card'
 import Feature_Item from './Feature-Item'
 import IMAGES from '../images/FeatureImgs'
-import '../styles/Features.css'
+import '../styles/features.css'
 
 export default function (props) {
   const features = props.features

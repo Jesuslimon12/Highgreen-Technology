@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Main_title from './Main-title'
 import LogoHaaga from '../assets/Haaga-logo.svg'
 import LogoNamco from '../assets/Namco-logo.svg'
-import '../styles/About.css'
+import '../styles/about.css'
 
 export default function About() {
   /** 20 4 35px**/
