@@ -1,6 +1,6 @@
 import React from 'react'
 import Star_Icon from '../assets/Star.svg'
-import '../styles/card-review.css'
+import '../styles/cardrev.css'
 
 export default function Card_Review({user}) {
   const comment = user.comment

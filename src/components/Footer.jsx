@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/footer.css'
+import '../styles/foot.css'
 import Highgreen from '../assets/Logo_Highgreen.svg'
 
 
