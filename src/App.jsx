@@ -7,7 +7,7 @@ import Naamco from './components/Naamco'
 import Footer from './components/Footer'
 import './index.css'
 import './styles/btn.css'
-import './styles/typography.css'
+import './styles/typo.css'
 import './styles/header.css'
 
 
