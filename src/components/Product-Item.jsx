@@ -2,7 +2,7 @@ import React, { useEffect, useLayoutEffect } from 'react'
 import { useState, useMemo, useRef} from "react"
 import Carousel from './Carousel'
 import IconRightGreen from '../assets/RightIconGreen.svg'
-import '../styles/product-item.css'
+import '../styles/proditem.css'
 
 export default function Item_Product(props) {
 

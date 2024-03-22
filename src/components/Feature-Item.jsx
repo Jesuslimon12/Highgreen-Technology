@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Main_title from './Main-title'
-import '../styles/feature-item.css'
+import '../styles/featitem.css'
 
 export default function Feature_Item(props) {
   const img = props.img
