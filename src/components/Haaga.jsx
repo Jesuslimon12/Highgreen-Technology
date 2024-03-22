@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react'
 import Features from './Features'
 import Nav from './Nav'
 
-import '../styles/header.css'
+import '../styles/head.css'
 
 export default function Haaga() {
   const [features, setFeatures] = useState([])
