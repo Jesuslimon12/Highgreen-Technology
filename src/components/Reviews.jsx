@@ -4,7 +4,7 @@ import Card_Review from './Card-Review'
 import Icon_User_1 from '../assets/User_1.svg'
 import Icon_User_2 from '../assets/User_2.svg'
 import Icon_User_3 from '../assets/User_3.svg'
-import '../styles/reviews.css'
+import '../styles/review.css'
 
 export default function Reviews() {
  
